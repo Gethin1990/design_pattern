@@ -124,6 +124,39 @@
         LastKnownName="AbstractFactory"
         LastKnownLocation="Package_1038.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3461bed6-ae28-46e0-9948-5bc611dafd4c"
+        LastKnownName="Builder"
+        LastKnownLocation="Package_1302.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d4b9138c-4faa-4aa9-985c-657e2911e079"
+        name="float" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f4f43752-c150-4490-b6a8-0095ead2cdee"
+        LastKnownName="Prototype"
+        LastKnownLocation="Package_1356.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6189b9ea-efcb-452d-a2de-7e947826bf8b"
+        name="Object" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="749e65ad-42b3-47ae-bafd-edde5275db2b"
+        name="Dictionary&lt;string,string&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="176735b2-b05d-48d6-b277-3de82f55c5c1"
+        LastKnownName="Adapter"
+        LastKnownLocation="Package_1439.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

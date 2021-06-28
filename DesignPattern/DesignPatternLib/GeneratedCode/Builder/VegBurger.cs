@@ -4,16 +4,26 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Builder
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ColorFactory : AbsrtactFactory
+	public class VegBurger : Burger
 	{
-		public override void GetColor(string colorType)
+		public override IPacking packing(string packingType)
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public override float price()
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public override string GetName()
 		{
 			throw new System.NotImplementedException();
 		}

@@ -4,16 +4,17 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Builder
 {
+	using AbstractFactory;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ColorFactory : AbsrtactFactory
+	public class Circle : IShape
 	{
-		public override void GetColor(string colorType)
+		public virtual void Draw()
 		{
 			throw new System.NotImplementedException();
 		}

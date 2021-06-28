@@ -4,16 +4,31 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Prototype
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ColorFactory : AbsrtactFactory
+	public class Rectangle : Shape
 	{
-		public override void GetColor(string colorType)
+		public override string GetType()
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public override string GetId()
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public override string SetId()
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public override Object Clone()
 		{
 			throw new System.NotImplementedException();
 		}

@@ -4,16 +4,22 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Builder
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ColorFactory : AbsrtactFactory
+	public class Meal
 	{
-		public override void GetColor(string colorType)
+		public virtual IEnumerable<Item> Items
+		{
+			get;
+			set;
+		}
+
+		public virtual float GetCost()
 		{
 			throw new System.NotImplementedException();
 		}

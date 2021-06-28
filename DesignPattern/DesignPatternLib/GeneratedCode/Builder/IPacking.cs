@@ -4,20 +4,15 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Builder
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ColorFactory : AbsrtactFactory
+	public interface IPacking 
 	{
-		public override void GetColor(string colorType)
-		{
-			throw new System.NotImplementedException();
-		}
-
 	}
 }
 

@@ -13,7 +13,7 @@ namespace AbstractFactory
 
 	public class ShapeFactory : AbsrtactFactory
 	{
-		public virtual IShape GetShape()
+		public override void GetShape(string shapeType)
 		{
 			throw new System.NotImplementedException();
 		}

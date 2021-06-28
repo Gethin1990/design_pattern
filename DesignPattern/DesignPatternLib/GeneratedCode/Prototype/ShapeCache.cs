@@ -4,16 +4,27 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Prototype
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ColorFactory : AbsrtactFactory
+	public class ShapeCache
 	{
-		public override void GetColor(string colorType)
+		private Dictionary<string,string> shapeMap
+		{
+			get;
+			set;
+		}
+
+		public virtual Shape GetShape()
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public virtual void LoadCache()
 		{
 			throw new System.NotImplementedException();
 		}

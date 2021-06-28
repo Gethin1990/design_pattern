@@ -4,20 +4,15 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Adapter
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ColorFactory : AbsrtactFactory
+	public class Mp4Player : AdvanceMediaPlayer
 	{
-		public override void GetColor(string colorType)
-		{
-			throw new System.NotImplementedException();
-		}
-
 	}
 }
 
