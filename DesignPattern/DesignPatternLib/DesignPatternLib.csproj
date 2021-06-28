@@ -59,6 +59,12 @@
     <Compile Include="GeneratedCode\Adapter\MediaPlayer.cs" />
     <Compile Include="GeneratedCode\Adapter\Mp4Player.cs" />
     <Compile Include="GeneratedCode\Adapter\VlcPlayer.cs" />
+    <Compile Include="GeneratedCode\Bridge\BridgeDemo.cs" />
+    <Compile Include="GeneratedCode\Bridge\Circle.cs" />
+    <Compile Include="GeneratedCode\Bridge\DrawAPI.cs" />
+    <Compile Include="GeneratedCode\Bridge\GreenCircle.cs" />
+    <Compile Include="GeneratedCode\Bridge\RedCircle.cs" />
+    <Compile Include="GeneratedCode\Bridge\Shape.cs" />
     <Compile Include="GeneratedCode\Builder\Bottle.cs" />
     <Compile Include="GeneratedCode\Builder\Burger.cs" />
     <Compile Include="GeneratedCode\Builder\ChickenBurger.cs" />
@@ -83,6 +89,10 @@
     <Compile Include="GeneratedCode\Prototype\Shape.cs" />
     <Compile Include="GeneratedCode\Prototype\ShapeCache.cs" />
     <Compile Include="GeneratedCode\Prototype\Square.cs" />
+    <Compile Include="GeneratedCode\Proxy\IImage.cs" />
+    <Compile Include="GeneratedCode\Proxy\ProxyDemo.cs" />
+    <Compile Include="GeneratedCode\Proxy\ProxyImage.cs" />
+    <Compile Include="GeneratedCode\Proxy\RealImage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

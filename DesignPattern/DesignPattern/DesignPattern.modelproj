@@ -36,6 +36,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Adapter.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Bridge.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Bridge.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Bridge.classdiagram</DependentUpon>
+    </Content>
     <Content Include="Builder.classdiagram">
       <SubType>Content</SubType>
     </Content>
@@ -58,12 +65,25 @@
     <Content Include="ModelDefinition\Package_1439.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1541.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1644.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Prototype.classdiagram">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Prototype.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>Prototype.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Proxy.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Proxy.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Proxy.classdiagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="Factory.classdiagram">

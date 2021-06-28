@@ -157,6 +157,18 @@
         LastKnownName="Adapter"
         LastKnownLocation="Package_1439.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a249d43d-aa2e-4bba-9862-26a9c61cbafe"
+        LastKnownName="Bridge"
+        LastKnownLocation="Package_1541.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0df56d39-26d6-461b-957f-80547927abb6"
+        LastKnownName="Proxy"
+        LastKnownLocation="Package_1644.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

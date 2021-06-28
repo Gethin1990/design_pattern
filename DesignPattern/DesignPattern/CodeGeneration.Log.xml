@@ -6,48 +6,42 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="High" Text="Code generation or text transformation started." />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Diagnostic" Text="Name = ClassTemplate" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2021-06-28T15:15:52" Importance="Medium" Text="DesignPattern's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'DesignPattern::Adapter::AdvanceMediaPlayer' -  (Class), 'DesignPattern::Adapter::MediaAdapter' -  (Class), 'DesignPattern::Adapter::AudioPlayer' -  (Class), 'DesignPattern::Adapter::Mp4Player' -  (Class), 'DesignPattern::Adapter::VlcPlayer' -  (Class) " />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Medium" Text="'DesignPattern::Adapter::AdvanceMediaPlayer' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Adapter\AdvanceMediaPlayer.cs" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Medium" Text="'DesignPattern::Adapter::MediaAdapter' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Adapter\MediaAdapter.cs" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Medium" Text="'DesignPattern::Adapter::AudioPlayer' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Adapter\AudioPlayer.cs" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Medium" Text="'DesignPattern::Adapter::Mp4Player' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Adapter\Mp4Player.cs" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Medium" Text="'DesignPattern::Adapter::VlcPlayer' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Adapter\VlcPlayer.cs" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Medium" Text="DesignPattern's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'DesignPattern::Adapter::IMediaPlayer' -  (Interface) " />
-  <Message Timestamp="2021-06-28T15:15:53" Importance="Medium" Text="'DesignPattern::Adapter::IMediaPlayer' -  (Interface) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Adapter\IMediaPlayer.cs" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="Name = StructTemplate" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Medium" Text="DesignPattern's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'DesignPattern::Adapter::AdvanceMediaPlayer' -  (Class), 'DesignPattern::Adapter::MediaAdapter' -  (Class), 'DesignPattern::Adapter::AudioPlayer' -  (Class), 'DesignPattern::Adapter::Mp4Player' -  (Class), 'DesignPattern::Adapter::VlcPlayer' -  (Class) " />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::AdvanceMediaPlayer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::MediaAdapter' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::AudioPlayer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::Mp4Player' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::VlcPlayer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="The selection included 6 elements which were not bound to a template." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::' -  (InterfaceRealization): no bound template." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::' -  (InterfaceRealization): no bound template." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::' -  (Association): no bound template." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'DesignPattern::Adapter::' -  (Association): no bound template." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'6332e672-7e55-4de8-b37b-220f8060eafc' -  (Generalization): no bound template." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="Diagnostic" Text="'3d2ee2c4-0444-44eb-b957-fbdf3b6fb7ac' -  (Generalization): no bound template." />
-  <Message Timestamp="2021-06-28T15:15:54" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2021-06-28T16:47:28" Importance="Medium" Text="DesignPattern's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'DesignPattern::Proxy::RealImage' -  (Class), 'DesignPattern::Proxy::ProxyImage' -  (Class), 'DesignPattern::Proxy::ProxyDemo' -  (Class) " />
+  <Message Timestamp="2021-06-28T16:47:29" Importance="Medium" Text="'DesignPattern::Proxy::RealImage' -  (Class) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Proxy\RealImage.cs" />
+  <Message Timestamp="2021-06-28T16:47:29" Importance="Medium" Text="'DesignPattern::Proxy::ProxyImage' -  (Class) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Proxy\ProxyImage.cs" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Medium" Text="'DesignPattern::Proxy::ProxyDemo' -  (Class) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Proxy\ProxyDemo.cs" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Medium" Text="DesignPattern's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'DesignPattern::Proxy::IImage' -  (Interface) " />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Medium" Text="'DesignPattern::Proxy::IImage' -  (Interface) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Proxy\IImage.cs" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Medium" Text="DesignPattern's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'DesignPattern::Proxy::RealImage' -  (Class), 'DesignPattern::Proxy::ProxyImage' -  (Class), 'DesignPattern::Proxy::ProxyDemo' -  (Class) " />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="'DesignPattern::Proxy::RealImage' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="'DesignPattern::Proxy::ProxyImage' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="'DesignPattern::Proxy::ProxyDemo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="The selection included 4 elements which were not bound to a template." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="'DesignPattern::Proxy::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="'DesignPattern::Proxy::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="'DesignPattern::Proxy::' -  (Association): no bound template." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="Diagnostic" Text="'DesignPattern::Proxy::' -  (Dependency): no bound template." />
+  <Message Timestamp="2021-06-28T16:47:30" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>
