@@ -13,6 +13,11 @@ namespace Builder
 
 	public class Bottle : IPacking
 	{
+		public virtual string Pack()
+		{
+			throw new System.NotImplementedException();
+		}
+
 	}
 }
 

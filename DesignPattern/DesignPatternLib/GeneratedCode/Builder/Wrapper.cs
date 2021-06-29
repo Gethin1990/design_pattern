@@ -13,6 +13,11 @@ namespace Builder
 
 	public class Wrapper : IPacking
 	{
+		public virtual string Pack()
+		{
+			throw new System.NotImplementedException();
+		}
+
 	}
 }
 

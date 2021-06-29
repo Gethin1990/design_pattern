@@ -47,14 +47,14 @@
         <classShapeMoniker Id="1e489dc1-1080-4764-be0d-38590b4ea9f1" />
       </nodes>
     </associationConnector>
-    <classShape Id="e91409bd-e9d7-4619-8058-46e5f49120b6" absoluteBounds="8, 3.75, 1.5, 1.0276793744166692" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+    <classShape Id="e91409bd-e9d7-4619-8058-46e5f49120b6" absoluteBounds="7.5, 3.75, 2.25, 1.0276793744166692" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
       <classMoniker Id="45cfc7d6-d39f-48a9-86f3-41b201b565ff" LastKnownName="ProxyDemo" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="8a4d68e6-8398-409e-82d1-a9e336d20fa8" absoluteBounds="8.015, 4.26533563931783, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="2dc012c0-92a9-407e-a47e-34b09e9f3392" absoluteBounds="8.015, 4.47650750686725, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="8a4d68e6-8398-409e-82d1-a9e336d20fa8" absoluteBounds="7.515, 4.26533563931783, 2.2199999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="2dc012c0-92a9-407e-a47e-34b09e9f3392" absoluteBounds="7.515, 4.47650750686725, 2.2199999999999998, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <dependencyConnector edgePoints="[(8 : 4.26383968720833); (5.875 : 4.26383968720833)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <dependencyConnector edgePoints="[(7.5 : 4.26383968720833); (5.875 : 4.26383968720833)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
       <dependencyMoniker Id="9ced486c-f660-42dd-b22c-5f5c2bca7b40" />
       <relativeChildShapes />
       <nodes>

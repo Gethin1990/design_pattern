@@ -13,7 +13,12 @@ namespace AbstractFactory
 
 	public class ShapeFactory : AbsrtactFactory
 	{
-		public override void GetShape(string shapeType)
+		public override IShape GetShape(string shapeType)
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public override IColor GetColor(string colorType)
 		{
 			throw new System.NotImplementedException();
 		}

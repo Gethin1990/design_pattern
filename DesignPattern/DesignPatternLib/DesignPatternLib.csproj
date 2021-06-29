@@ -68,9 +68,8 @@
     <Compile Include="GeneratedCode\Builder\Bottle.cs" />
     <Compile Include="GeneratedCode\Builder\Burger.cs" />
     <Compile Include="GeneratedCode\Builder\ChickenBurger.cs" />
-    <Compile Include="GeneratedCode\Builder\Circle.cs" />
-    <Compile Include="GeneratedCode\Builder\ClodDrink.cs" />
     <Compile Include="GeneratedCode\Builder\Coke.cs" />
+    <Compile Include="GeneratedCode\Builder\Drink.cs" />
     <Compile Include="GeneratedCode\Builder\IPacking.cs" />
     <Compile Include="GeneratedCode\Builder\Item.cs" />
     <Compile Include="GeneratedCode\Builder\Meal.cs" />
@@ -95,7 +94,6 @@
     <Compile Include="GeneratedCode\Proxy\RealImage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

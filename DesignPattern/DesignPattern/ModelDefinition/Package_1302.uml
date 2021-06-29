@@ -448,7 +448,7 @@
         <ownedOperationsInternal>
           <operation
             Id="7b3b8b28-6864-481d-a964-96107ec5c48e"
-            name="packing"
+            name="Packing"
             isLeaf="false"
             isStatic="false"
             isAbstract="true"
@@ -507,20 +507,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="274041a2-c477-40e1-8168-70af4cbae807"
-                  name="packingType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="fefb2bfa-8fcf-4f94-b7e8-b0f69eb2a203"
                   direction="Return">
                   <type_NamedElement>
@@ -535,7 +521,7 @@
           </operation>
           <operation
             Id="3bcf0d3e-2811-4347-8167-eaf70a35a62f"
-            name="price"
+            name="GetPrice"
             isLeaf="false"
             isStatic="false"
             isAbstract="true"
@@ -741,6 +727,82 @@
               LastKnownLocation="Package_1302.uml" />
           </interfaceRealization>
         </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2e30f9af-206e-423d-ae11-b825fdc723e3"
+            name="Pack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6f3d1b6f-212d-4c61-9246-5b9dc0663bdb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="489ec20b-0196-4e36-83d6-70822866d874">
+                    <propertyInstance
+                      Id="21de3867-c3c5-40a6-a26c-c7cb785d0c25"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df116a1a-6f4d-4740-8ad2-c43f50151ecd">
+                    <propertyInstance
+                      Id="61d303f7-579d-47ea-9435-adf3b2e8fdab"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="559b5e04-a03a-458d-a3eb-3c915910c3e1">
+                    <propertyInstance
+                      Id="db72c4ce-39a5-4fca-ac82-606738f20a07"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4876c46-3940-4171-97dc-aa2cec77e911">
+                    <propertyInstance
+                      Id="5ef846a6-c00f-41b8-b366-f1b1008d04e9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a42c6234-2b3c-4125-9c5e-b0ddbeab8476">
+                    <propertyInstance
+                      Id="8b2d8830-a6cb-45fd-9aed-bda7860b9660"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b1d6d73-3448-474a-b11f-43e9a5b2fa10">
+                    <propertyInstance
+                      Id="3df55455-1601-4ee7-a399-c4392fe1aa66"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1d5a5fd7-42da-47f1-8e81-4b2f251b8e71"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -802,6 +864,82 @@
               LastKnownLocation="Package_1302.uml" />
           </interfaceRealization>
         </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="451b7643-e18d-49d5-8e33-a3b1bf237335"
+            name="Pack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="efcc3015-21ae-40a9-a97f-6d1734b93e58"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f47c86d-75d9-4b33-960d-344d12118074">
+                    <propertyInstance
+                      Id="5fc3ecd6-1e90-4840-b58c-eded3439e0f1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1a424e1-dc6c-4d8e-8252-5aeedabb89ea">
+                    <propertyInstance
+                      Id="cb405247-b7f4-4042-8c28-be7f692c153f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3c5dc46-891a-4516-b43d-f662b2b14b45">
+                    <propertyInstance
+                      Id="dd90181d-697e-406a-9683-143630265bc9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67165760-50b4-43c3-bd8c-d8d53034f6aa">
+                    <propertyInstance
+                      Id="37a68746-1655-4edd-b2d7-d17e6ff84d35"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60420e13-8569-41c5-a688-5782bc3748a0">
+                    <propertyInstance
+                      Id="29166567-05bb-47b7-ba00-4dda265519ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="688681dc-ba08-4779-8562-1b294b3e4aaf">
+                    <propertyInstance
+                      Id="545802da-73da-4d7e-a221-3f631b23be65"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bacd04b9-1865-426d-a0f4-f347fafddb77"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -846,6 +984,82 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="ecb6ac58-5ace-4718-a957-8a9a497b7a6e"
+            name="Pack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0c08c0a7-0ae8-4dd1-900a-b9a12150cb7f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc76ec65-4316-4c7a-9835-c0cd2b86accd">
+                    <propertyInstance
+                      Id="6c5480a5-6046-413f-abaf-214270b2bbd7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f92ec970-4ad8-4eb6-803b-5c591832979f">
+                    <propertyInstance
+                      Id="6044d8a6-8882-4282-b309-508fc719c547"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ffc7b37-5fef-4c68-bfea-f2f6c2b377e9">
+                    <propertyInstance
+                      Id="436f6497-93e7-40c9-945f-d099cf369d1a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="794c8703-696b-4629-b6ee-6ccb5146db29">
+                    <propertyInstance
+                      Id="c42a9ac6-f342-4859-8e2f-212ce0d56b4b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0e9a094-eecd-4efa-97d6-f7e980d2e40d">
+                    <propertyInstance
+                      Id="585e8066-10df-4d85-8555-4ef54c2f5f7d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f88ff55-5191-4d82-a5ce-6ff9171fbd16">
+                    <propertyInstance
+                      Id="830cd4b8-f5ec-41fe-bb6a-1d818b553bf4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3e0adcd0-65de-4943-8290-c6f5360dfe41"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
       </Interface>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -920,7 +1134,7 @@
         <ownedOperationsInternal>
           <operation
             Id="74777125-a666-4cb3-ad1b-e969366f3fd8"
-            name="packing"
+            name="Packing"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -979,20 +1193,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="7ec667e7-f51d-4046-8c2e-14e58f68abee"
-                  name="packingType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="48eb0575-e360-4580-90e1-5240614376a9"
                   direction="Return">
                   <type_NamedElement>
@@ -1007,7 +1207,7 @@
           </operation>
           <operation
             Id="ff5f4894-7077-4f2b-b747-fdb04356ce75"
-            name="price"
+            name="GetPrice"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1217,7 +1417,7 @@
         <ownedOperationsInternal>
           <operation
             Id="40fc0c4a-666a-4d71-885a-3c3dae4d8cab"
-            name="packing"
+            name="Packing"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1276,20 +1476,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="ea6e514d-34c1-4984-9129-571ef9ca517e"
-                  name="packingType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="f34b0342-ec34-43f3-8aba-1a0bbb5cac5d"
                   direction="Return">
                   <type_NamedElement>
@@ -1304,7 +1490,7 @@
           </operation>
           <operation
             Id="762bbec1-4bd5-4110-be9b-550e5cdf0c8e"
-            name="price"
+            name="GetPrice"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1454,7 +1640,7 @@
     <packageHasNamedElement>
       <class
         Id="e2c97e70-e88a-4a38-b826-6f915bab19e5"
-        name="ClodDrink"
+        name="Drink"
         isAbstract="true"
         isLeaf="false"
         isActiveClass="false">
@@ -1523,7 +1709,7 @@
         <ownedOperationsInternal>
           <operation
             Id="79213f6b-fb34-43ea-99f7-451d524955ba"
-            name="packing"
+            name="Packing"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1582,20 +1768,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="9fd389d1-49d2-467e-9654-89ce5e049ff0"
-                  name="packingType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="dc6b9cd5-4732-45da-8505-996c3f31cc93"
                   direction="Return">
                   <type_NamedElement>
@@ -1610,7 +1782,7 @@
           </operation>
           <operation
             Id="f5d75b9b-0c5c-4d2d-ac50-258cc2d0e1a7"
-            name="price"
+            name="GetPrice"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1820,7 +1992,7 @@
         <ownedOperationsInternal>
           <operation
             Id="8f94d412-e292-4319-a3ca-d18ce873fc88"
-            name="packing"
+            name="Packing"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1879,20 +2051,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="f07dd6c3-51e9-4efc-bcdf-e853f1313d40"
-                  name="packingType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="245921e5-7cea-4755-b22a-b46515b133bd"
                   direction="Return">
                   <type_NamedElement>
@@ -1907,7 +2065,7 @@
           </operation>
           <operation
             Id="e5dc123c-695b-44e7-af0c-e6a3295a57a6"
-            name="price"
+            name="GetPrice"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -2110,14 +2268,14 @@
             isSubstitutable="false">
             <classMoniker
               Id="e2c97e70-e88a-4a38-b826-6f915bab19e5"
-              LastKnownName="ClodDrink"
+              LastKnownName="Drink"
               LastKnownLocation="Package_1302.uml" />
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
             Id="b4c30988-1d54-46e9-8a9b-d55ea7837310"
-            name="packing"
+            name="Packing"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -2176,20 +2334,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="3f9e88f4-748a-4e2f-b0f8-c6bef7b908c2"
-                  name="packingType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="d1c3f743-9708-4022-97fd-3c463a96e79a"
                   direction="Return">
                   <type_NamedElement>
@@ -2204,7 +2348,7 @@
           </operation>
           <operation
             Id="87311d3e-8cc3-427c-a5ab-93b7529a28ba"
-            name="price"
+            name="GetPrice"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -2407,14 +2551,14 @@
             isSubstitutable="false">
             <classMoniker
               Id="e2c97e70-e88a-4a38-b826-6f915bab19e5"
-              LastKnownName="ClodDrink"
+              LastKnownName="Drink"
               LastKnownLocation="Package_1302.uml" />
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
             Id="e7121b0a-1d34-4569-b05b-2b18e4e2a117"
-            name="packing"
+            name="Packing"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -2473,20 +2617,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="0b76d515-cc14-4735-a2ae-5b3104a11c49"
-                  name="packingType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="47139e1a-6d99-4f2b-bd07-76d10e63da23"
                   direction="Return">
                   <type_NamedElement>
@@ -2501,7 +2631,7 @@
           </operation>
           <operation
             Id="a3e0369e-c015-470c-af57-cb66edd141a0"
-            name="price"
+            name="GetPrice"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"

@@ -18,12 +18,12 @@ namespace Prototype
 			throw new System.NotImplementedException();
 		}
 
-		public override string GetId()
+		public override int GetId()
 		{
 			throw new System.NotImplementedException();
 		}
 
-		public override string SetId()
+		public override void SetId(int Id)
 		{
 			throw new System.NotImplementedException();
 		}

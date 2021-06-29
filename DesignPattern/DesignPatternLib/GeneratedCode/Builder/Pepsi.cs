@@ -11,14 +11,14 @@ namespace Builder
 	using System.Linq;
 	using System.Text;
 
-	public class Pepsi : ClodDrink
+	public class Pepsi : Drink
 	{
-		public override IPacking packing(string packingType)
+		public override IPacking Packing()
 		{
 			throw new System.NotImplementedException();
 		}
 
-		public override float price()
+		public override float GetPrice()
 		{
 			throw new System.NotImplementedException();
 		}

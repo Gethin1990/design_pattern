@@ -169,6 +169,11 @@
         LastKnownName="Proxy"
         LastKnownLocation="Package_1644.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="57749ea4-5e6d-45e9-8975-f94c275298a7"
+        name="In" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

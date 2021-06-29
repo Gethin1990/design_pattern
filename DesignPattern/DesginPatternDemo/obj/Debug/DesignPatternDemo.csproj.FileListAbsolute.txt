@@ -1,0 +1,5 @@
+C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\bin\Debug\DesginPatternDemo.exe.config
+C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\bin\Debug\DesginPatternDemo.exe
+C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\bin\Debug\DesginPatternDemo.pdb
+C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\obj\Debug\DesginPatternDemo.exe
+C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\obj\Debug\DesginPatternDemo.pdb

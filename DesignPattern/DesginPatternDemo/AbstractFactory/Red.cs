@@ -4,19 +4,19 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Builder
+namespace AbstractFactory
 {
-	using AbstractFactory;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class Circle : IShape
+	public class Red : IColor
 	{
-		public virtual void Draw()
+		public virtual void Fill()
 		{
-			throw new System.NotImplementedException();
+            Console.WriteLine("red");
+			//throw new System.NotImplementedException();
 		}
 
 	}

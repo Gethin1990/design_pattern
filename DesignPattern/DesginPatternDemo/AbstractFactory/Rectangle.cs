@@ -4,28 +4,18 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Builder
+namespace AbstractFactory
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public abstract class ClodDrink : Item
+	public class Rectangle : IShape
 	{
-		public override IPacking packing(string packingType)
+		public virtual void Draw()
 		{
-			throw new System.NotImplementedException();
-		}
-
-		public override float price()
-		{
-			throw new System.NotImplementedException();
-		}
-
-		public override string GetName()
-		{
-			throw new System.NotImplementedException();
+            Console.WriteLine("Rectangle");
 		}
 
 	}

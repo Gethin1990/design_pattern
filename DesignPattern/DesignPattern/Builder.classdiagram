@@ -404,7 +404,7 @@
         </appliedStereotypesInternal>
         <elementDefinition Id="c7f41938-de77-4e78-a451-55af95d05d05" />
         <ownedOperationsInternal>
-          <operation Id="76f1ea2d-6aa9-4372-bb7d-4dd375292468" name="packing" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+          <operation Id="76f1ea2d-6aa9-4372-bb7d-4dd375292468" name="Packing" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="9d265f55-bf59-4f8c-b849-10a62e42cf3b" name="method" profile="CSharpProfile">
                 <elementDefinition Id="616992ee-6b38-4468-8ada-6b495ab1d8ce" />
@@ -451,14 +451,6 @@
             <elementDefinition Id="7b3b8b28-6864-481d-a964-96107ec5c48e" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="d74d62ed-d113-4d94-a76c-110bd40d7e1f" name="packingType" direction="In" isUnique="false">
-                  <elementDefinition Id="274041a2-c477-40e1-8168-70af4cbae807" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
                 <parameter Id="966159dd-05d2-47ad-9278-056632a25288" direction="Return">
                   <elementDefinition Id="fefb2bfa-8fcf-4f94-b7e8-b0f69eb2a203" />
                   <type_NamedElement>
@@ -468,7 +460,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="b88ae2e7-34c3-42cb-80da-0eefc192038b" name="price" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+          <operation Id="b88ae2e7-34c3-42cb-80da-0eefc192038b" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="30590f14-ef8a-4685-9065-1decefcaa741" name="method" profile="CSharpProfile">
                 <elementDefinition Id="42f124ef-508d-4a0e-ae77-a09a90877900" />
@@ -629,6 +621,64 @@
             <elementDefinition Id="3918ac99-40e8-42fa-b086-d3f762fd5443" />
           </interfaceRealization>
         </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="b3f1a123-1d23-4b74-b087-4c1fd8a6ff35" name="Pack" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="41f4f32a-f8ce-4bd9-a51a-c2e1ab87e3e7" name="method" profile="CSharpProfile">
+                <elementDefinition Id="efcc3015-21ae-40a9-a97f-6d1734b93e58" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8ff7610f-e4c1-4144-aa7d-1c1abb253351">
+                    <propertyInstance Id="b71b352d-2f9d-4cef-8ff2-da2ab37da495" name="ClrAttributes">
+                      <elementDefinition Id="5fc3ecd6-1e90-4840-b58c-eded3439e0f1" />
+                    </propertyInstance>
+                    <elementDefinition Id="5f47c86d-75d9-4b33-960d-344d12118074" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2ac3c0eb-9785-4bac-acfa-1157697e0122">
+                    <propertyInstance Id="b100ff20-206d-4e26-bda7-2bb89db782b3" name="IsPartial" value="false">
+                      <elementDefinition Id="cb405247-b7f4-4042-8c28-be7f692c153f" />
+                    </propertyInstance>
+                    <elementDefinition Id="c1a424e1-dc6c-4d8e-8252-5aeedabb89ea" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ec04ed75-b799-4865-8ffc-b186c6d95528">
+                    <propertyInstance Id="63bcf743-7542-49b3-8c82-31737a956b46" name="IsUnsafe" value="false">
+                      <elementDefinition Id="dd90181d-697e-406a-9683-143630265bc9" />
+                    </propertyInstance>
+                    <elementDefinition Id="b3c5dc46-891a-4516-b43d-f662b2b14b45" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f2b70371-10e2-41fd-8929-e7f17bd06abf">
+                    <propertyInstance Id="2beb7aa6-8ad3-4e0a-8ae0-be95655bb838" name="Inheritance" value="none">
+                      <elementDefinition Id="37a68746-1655-4edd-b2d7-d17e6ff84d35" />
+                    </propertyInstance>
+                    <elementDefinition Id="67165760-50b4-43c3-bd8c-d8d53034f6aa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="84749639-026a-473a-b04b-aa496ed27cff">
+                    <propertyInstance Id="80d37432-6af2-482e-9f15-08580449721b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="29166567-05bb-47b7-ba00-4dda265519ae" />
+                    </propertyInstance>
+                    <elementDefinition Id="60420e13-8569-41c5-a688-5782bc3748a0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="069010d2-181b-41cc-b871-59dd7eaafb8c">
+                    <propertyInstance Id="359b2666-7a76-4c80-9442-36c2e8981cf7" name="params" value="false">
+                      <elementDefinition Id="545802da-73da-4d7e-a221-3f631b23be65" />
+                    </propertyInstance>
+                    <elementDefinition Id="688681dc-ba08-4779-8562-1b294b3e4aaf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="451b7643-e18d-49d5-8e33-a3b1bf237335" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f5e50c20-69ee-471a-aa69-1cf3e6f6b263" direction="Return" isUnique="false">
+                  <elementDefinition Id="bacd04b9-1865-426d-a0f4-f347fafddb77" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
@@ -677,6 +727,64 @@
             <elementDefinition Id="f03a640f-db0d-45bd-98a7-6321b856820c" />
           </interfaceRealization>
         </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="94853f25-e603-4b81-bbc5-a4992aa76d9c" name="Pack" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="883bd8f9-fab0-4d59-802d-7d7638def444" name="method" profile="CSharpProfile">
+                <elementDefinition Id="6f3d1b6f-212d-4c61-9246-5b9dc0663bdb" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="56ab6d1a-ab5c-40ef-9871-90894fc55fa5">
+                    <propertyInstance Id="f34b055e-3833-4c0f-81b5-3e4b2ca0a15c" name="ClrAttributes">
+                      <elementDefinition Id="21de3867-c3c5-40a6-a26c-c7cb785d0c25" />
+                    </propertyInstance>
+                    <elementDefinition Id="489ec20b-0196-4e36-83d6-70822866d874" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b8c6e96c-7bbb-477e-9ac3-4ac8764e1942">
+                    <propertyInstance Id="83de320a-080b-46b5-a574-a6072182a676" name="IsPartial" value="false">
+                      <elementDefinition Id="61d303f7-579d-47ea-9435-adf3b2e8fdab" />
+                    </propertyInstance>
+                    <elementDefinition Id="df116a1a-6f4d-4740-8ad2-c43f50151ecd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c96380e5-296e-4159-8810-861b6892e4cd">
+                    <propertyInstance Id="5d2c2d18-3d93-4588-917e-c01d52098c6a" name="IsUnsafe" value="false">
+                      <elementDefinition Id="db72c4ce-39a5-4fca-ac82-606738f20a07" />
+                    </propertyInstance>
+                    <elementDefinition Id="559b5e04-a03a-458d-a3eb-3c915910c3e1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f4266211-64ce-4624-b848-e4dcb91a67f1">
+                    <propertyInstance Id="965c7a0c-4832-40a2-b430-2ee83e7e0c7b" name="Inheritance" value="none">
+                      <elementDefinition Id="5ef846a6-c00f-41b8-b366-f1b1008d04e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="c4876c46-3940-4171-97dc-aa2cec77e911" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="153d88b7-ea0b-4096-96d4-c9bde76a706a">
+                    <propertyInstance Id="de61e79e-16fe-4025-b747-18723e440d95" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8b2d8830-a6cb-45fd-9aed-bda7860b9660" />
+                    </propertyInstance>
+                    <elementDefinition Id="a42c6234-2b3c-4125-9c5e-b0ddbeab8476" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="303a2b01-34df-4cc0-b90a-5c3ab8725ef0">
+                    <propertyInstance Id="18eb6721-bef0-4061-8630-701f68d8716a" name="params" value="false">
+                      <elementDefinition Id="3df55455-1601-4ee7-a399-c4392fe1aa66" />
+                    </propertyInstance>
+                    <elementDefinition Id="4b1d6d73-3448-474a-b11f-43e9a5b2fa10" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2e30f9af-206e-423d-ae11-b825fdc723e3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3919b375-a5ac-45dc-b8cb-aee2bdd3a18b" direction="Return" isUnique="false">
+                  <elementDefinition Id="1d5a5fd7-42da-47f1-8e81-4b2f251b8e71" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
@@ -713,6 +821,64 @@
           </stereotypeInstance>
         </appliedStereotypesInternal>
         <elementDefinition Id="9dad98c3-c1c2-4db6-9622-054097517ac5" />
+        <ownedOperations>
+          <operation Id="55dedf75-7289-478e-bd0b-6cd599ba8926" name="Pack" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c4246d69-f8d4-437e-9191-9cc91e0a406b" name="method" profile="CSharpProfile">
+                <elementDefinition Id="0c08c0a7-0ae8-4dd1-900a-b9a12150cb7f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d65f0dd1-f358-4223-8040-b6f3eb5fcf51">
+                    <propertyInstance Id="4c5ec2c4-43eb-4a18-b199-d002ffb60cec" name="ClrAttributes">
+                      <elementDefinition Id="6c5480a5-6046-413f-abaf-214270b2bbd7" />
+                    </propertyInstance>
+                    <elementDefinition Id="fc76ec65-4316-4c7a-9835-c0cd2b86accd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="27b48ea1-5d14-4eaf-81f2-aa68d773b532">
+                    <propertyInstance Id="611b9695-fcba-4185-83c6-6791ef8582f6" name="IsPartial" value="false">
+                      <elementDefinition Id="6044d8a6-8882-4282-b309-508fc719c547" />
+                    </propertyInstance>
+                    <elementDefinition Id="f92ec970-4ad8-4eb6-803b-5c591832979f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cd1b13d0-87d2-4266-aa45-6f07d415da5c">
+                    <propertyInstance Id="eab3955c-679f-49a2-8bf4-f5a4bff6b7f1" name="IsUnsafe" value="false">
+                      <elementDefinition Id="436f6497-93e7-40c9-945f-d099cf369d1a" />
+                    </propertyInstance>
+                    <elementDefinition Id="4ffc7b37-5fef-4c68-bfea-f2f6c2b377e9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7390190b-84a4-4eed-805e-c26207f6fe35">
+                    <propertyInstance Id="68d5a6bc-1be1-4101-87cd-f7029bb5c3c4" name="Inheritance" value="none">
+                      <elementDefinition Id="c42a9ac6-f342-4859-8e2f-212ce0d56b4b" />
+                    </propertyInstance>
+                    <elementDefinition Id="794c8703-696b-4629-b6ee-6ccb5146db29" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7c31b7d8-90cb-4cc8-8f9c-695ad17d71d5">
+                    <propertyInstance Id="607cfa3e-6350-42b4-afc5-a5787a7b14ee" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="585e8066-10df-4d85-8555-4ef54c2f5f7d" />
+                    </propertyInstance>
+                    <elementDefinition Id="c0e9a094-eecd-4efa-97d6-f7e980d2e40d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4ec47c4f-8324-42b9-a3ae-5a21c0d5afb1">
+                    <propertyInstance Id="bc6b2602-34d7-450b-8335-209c0df22677" name="params" value="false">
+                      <elementDefinition Id="830cd4b8-f5ec-41fe-bb6a-1d818b553bf4" />
+                    </propertyInstance>
+                    <elementDefinition Id="8f88ff55-5191-4d82-a5ce-6ff9171fbd16" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ecb6ac58-5ace-4718-a957-8a9a497b7a6e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="92fde5b8-587b-46fb-8514-3d12b35a5182" direction="Return" isUnique="false">
+                  <elementDefinition Id="3e0adcd0-65de-4943-8290-c6f5360dfe41" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e650298a-7432-452b-81c2-700322d4b8a5" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
       </Interface>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
@@ -768,7 +934,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="b29a6f34-3a97-498a-8af3-e030a7d236fd" name="packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="b29a6f34-3a97-498a-8af3-e030a7d236fd" name="Packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="c4c7addd-ddc1-410a-8d6e-f3846f97cde8" name="method" profile="CSharpProfile">
                 <elementDefinition Id="ded30b7d-ade2-49b5-8d13-de5c28ccfeab" />
@@ -815,14 +981,6 @@
             <elementDefinition Id="74777125-a666-4cb3-ad1b-e969366f3fd8" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="1fa5e857-ce2f-4f15-81e2-b156ddaea432" name="packingType" direction="In" isUnique="false">
-                  <elementDefinition Id="7ec667e7-f51d-4046-8c2e-14e58f68abee" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
                 <parameter Id="9dfa3b52-1262-4c84-ab1c-b8e77a38ce4a" direction="Return">
                   <elementDefinition Id="48eb0575-e360-4580-90e1-5240614376a9" />
                   <type_NamedElement>
@@ -832,7 +990,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="9d71bf3c-30bd-4924-9647-dd8f13f50be2" name="price" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="9d71bf3c-30bd-4924-9647-dd8f13f50be2" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="d8c8a7d2-f570-4a7e-9a40-af3e7233f34c" name="method" profile="CSharpProfile">
                 <elementDefinition Id="489dc299-5d97-465b-b41c-180a45681ecf" />
@@ -948,7 +1106,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="0834086c-2bc1-4f5d-a28e-f0ed7036e235" name="ClodDrink" isAbstract="true" isLeaf="false" isActiveClass="false">
+      <class Id="0834086c-2bc1-4f5d-a28e-f0ed7036e235" name="Drink" isAbstract="true" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="9e54f545-013e-4804-ad00-9bb6b81d4838" name="class" profile="CSharpProfile">
             <elementDefinition Id="d91fb994-6970-47c5-809d-1ecbf5a8ae4f" />
@@ -1000,7 +1158,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="8e543255-0b38-4af9-a876-84f45e66748d" name="packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="8e543255-0b38-4af9-a876-84f45e66748d" name="Packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="43202334-3a18-4941-aef4-673c53c9b74b" name="method" profile="CSharpProfile">
                 <elementDefinition Id="62bd37f3-e607-4af2-9509-811514069bb2" />
@@ -1047,14 +1205,6 @@
             <elementDefinition Id="79213f6b-fb34-43ea-99f7-451d524955ba" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="aac8d961-bad8-4dc9-a6e7-7eee662d74b8" name="packingType" direction="In" isUnique="false">
-                  <elementDefinition Id="9fd389d1-49d2-467e-9654-89ce5e049ff0" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
                 <parameter Id="50847e17-39fb-4faf-ad4b-1a6c8326ea96" direction="Return">
                   <elementDefinition Id="dc6b9cd5-4732-45da-8505-996c3f31cc93" />
                   <type_NamedElement>
@@ -1064,7 +1214,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="ca29805a-5e56-492e-84d3-f3be277fed5d" name="price" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="ca29805a-5e56-492e-84d3-f3be277fed5d" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="2ed36831-a41b-4cd3-9416-4793452022d1" name="method" profile="CSharpProfile">
                 <elementDefinition Id="0ff6b0c2-d142-49df-ad2f-43a469276ae0" />
@@ -1226,7 +1376,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="8520cc64-f859-4095-9f59-310f826a2dca" name="packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="8520cc64-f859-4095-9f59-310f826a2dca" name="Packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="58fe4bac-7690-4394-a364-8bef6de95a4a" name="method" profile="CSharpProfile">
                 <elementDefinition Id="d0aabfd4-cd06-4fa1-964b-8ce18a62a286" />
@@ -1273,14 +1423,6 @@
             <elementDefinition Id="8f94d412-e292-4319-a3ca-d18ce873fc88" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="9eb00409-1c43-4bbf-a1b8-c2c228aa9eb0" name="packingType" direction="In" isUnique="false">
-                  <elementDefinition Id="f07dd6c3-51e9-4efc-bcdf-e853f1313d40" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
                 <parameter Id="4f75f6d6-a04e-42b7-850e-f697987d80c0" direction="Return">
                   <elementDefinition Id="245921e5-7cea-4755-b22a-b46515b133bd" />
                   <type_NamedElement>
@@ -1290,7 +1432,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="6b4bc162-26cd-436d-8804-4bfb4d30edb0" name="price" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="6b4bc162-26cd-436d-8804-4bfb4d30edb0" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="29a01e58-5b05-49f5-9e53-36b5f5cb53bc" name="method" profile="CSharpProfile">
                 <elementDefinition Id="bf142864-0967-4469-965a-3a8803d9bec6" />
@@ -1452,7 +1594,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="48399a16-6724-4aa4-b60d-4586a84fadff" name="packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="48399a16-6724-4aa4-b60d-4586a84fadff" name="Packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="46ad47ee-2b3d-4aa8-ad46-3c44caacb124" name="method" profile="CSharpProfile">
                 <elementDefinition Id="af581bdc-cf68-40ce-ab50-e82d9a81c76c" />
@@ -1499,14 +1641,6 @@
             <elementDefinition Id="40fc0c4a-666a-4d71-885a-3c3dae4d8cab" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="994ea6c4-1b39-4017-8fbb-70cafe3bb2e4" name="packingType" direction="In" isUnique="false">
-                  <elementDefinition Id="ea6e514d-34c1-4984-9129-571ef9ca517e" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
                 <parameter Id="f776a0ff-005e-4750-a094-cbcb4eebd56a" direction="Return">
                   <elementDefinition Id="f34b0342-ec34-43f3-8aba-1a0bbb5cac5d" />
                   <type_NamedElement>
@@ -1516,7 +1650,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="e114b399-cead-47ce-8e03-4cde06c893d2" name="price" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="e114b399-cead-47ce-8e03-4cde06c893d2" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="02d9f77d-390a-4002-a8f2-f0618bdefc11" name="method" profile="CSharpProfile">
                 <elementDefinition Id="67a7103e-02bb-4dd4-bafb-1298d6be962f" />
@@ -1673,12 +1807,12 @@
         <elementDefinition Id="09077219-26b1-43d0-8c23-d261def522cf" />
         <generalsInternal>
           <generalization Id="87052e0f-3ab1-4411-85e4-761b58a071ed" isSubstitutable="false">
-            <classMoniker Id="0834086c-2bc1-4f5d-a28e-f0ed7036e235" LastKnownName="ClodDrink" />
+            <classMoniker Id="0834086c-2bc1-4f5d-a28e-f0ed7036e235" LastKnownName="Drink" />
             <elementDefinition Id="d5ab4ea9-9bde-447a-a5cc-0ba49a964a98" />
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="bdc20e22-293c-4841-90af-08c59ce82710" name="packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="bdc20e22-293c-4841-90af-08c59ce82710" name="Packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="a6a155f1-0f79-42a5-b50f-4c7754b408ec" name="method" profile="CSharpProfile">
                 <elementDefinition Id="33f3ad73-f36a-4772-a891-8f0058fc6ba8" />
@@ -1725,14 +1859,6 @@
             <elementDefinition Id="e7121b0a-1d34-4569-b05b-2b18e4e2a117" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="f529f638-477f-438f-9bb4-40f223ea8458" name="packingType" direction="In" isUnique="false">
-                  <elementDefinition Id="0b76d515-cc14-4735-a2ae-5b3104a11c49" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
                 <parameter Id="529f4cf2-7727-4e43-8563-aca4c99a1534" direction="Return">
                   <elementDefinition Id="47139e1a-6d99-4f2b-bd07-76d10e63da23" />
                   <type_NamedElement>
@@ -1742,7 +1868,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="017cbf88-7d15-4a24-8f9e-c19546e455be" name="price" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="017cbf88-7d15-4a24-8f9e-c19546e455be" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="512ffc32-3c0c-4fcb-9278-c2e544d7023d" name="method" profile="CSharpProfile">
                 <elementDefinition Id="ef9994cc-e9a8-468d-97cd-16cf750ee4c7" />
@@ -1899,12 +2025,12 @@
         <elementDefinition Id="380cac92-875e-4233-940d-01c69124da3a" />
         <generalsInternal>
           <generalization Id="e4fbcd98-09c2-4e74-a5e4-844603c1210c" isSubstitutable="false">
-            <classMoniker Id="0834086c-2bc1-4f5d-a28e-f0ed7036e235" LastKnownName="ClodDrink" />
+            <classMoniker Id="0834086c-2bc1-4f5d-a28e-f0ed7036e235" LastKnownName="Drink" />
             <elementDefinition Id="a85fe2e3-a026-4eee-a16c-99f9611d8b05" />
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="0497590a-b518-4272-af38-0df2a055c49b" name="packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="0497590a-b518-4272-af38-0df2a055c49b" name="Packing" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="38675294-2d10-4621-aef3-08d5bf904ce8" name="method" profile="CSharpProfile">
                 <elementDefinition Id="dab4b2d5-3ecf-496c-b6ca-307aed4d7635" />
@@ -1951,14 +2077,6 @@
             <elementDefinition Id="b4c30988-1d54-46e9-8a9b-d55ea7837310" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="b8cfa05e-ad24-4909-b643-3603291123cc" name="packingType" direction="In" isUnique="false">
-                  <elementDefinition Id="3f9e88f4-748a-4e2f-b0f8-c6bef7b908c2" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="401d86c6-eb18-4a0f-8bb4-2f3e05638b6b" LastKnownName="String" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
                 <parameter Id="7c8025d5-8a5b-47e0-87b2-e713680f7d43" direction="Return">
                   <elementDefinition Id="d1c3f743-9708-4022-97fd-3c463a96e79a" />
                   <type_NamedElement>
@@ -1968,7 +2086,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="27c62ce3-4732-41e6-b0d7-f8ccaa015484" name="price" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="27c62ce3-4732-41e6-b0d7-f8ccaa015484" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="06236dca-3224-4397-bc4f-3316ed43d382" name="method" profile="CSharpProfile">
                 <elementDefinition Id="fd1bc105-33da-47dc-8806-67f3a4322234" />
@@ -2111,6 +2229,11 @@
     <packageHasNamedElement>
       <referencedType Id="41d047f8-d9cd-482e-a53d-d688e694cfc7" name="Meal" isAbstract="false" isLeaf="false" cachedFullName="DesignPattern::Builder::Meal">
         <elementDefinition Id="436f959e-b36e-4d50-83dd-c1119b51af71" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e650298a-7432-452b-81c2-700322d4b8a5" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

@@ -13,12 +13,12 @@ namespace Builder
 
 	public class ChickenBurger : Burger
 	{
-		public override IPacking packing(string packingType)
+		public override IPacking Packing()
 		{
 			throw new System.NotImplementedException();
 		}
 
-		public override float price()
+		public override float GetPrice()
 		{
 			throw new System.NotImplementedException();
 		}

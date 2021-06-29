@@ -13,7 +13,12 @@ namespace AbstractFactory
 
 	public class ColorFactory : AbsrtactFactory
 	{
-		public override void GetColor(string colorType)
+		public override IColor GetColor(string colorType)
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public override IShape GetShape(string shapeType)
 		{
 			throw new System.NotImplementedException();
 		}
