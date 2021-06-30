@@ -78,7 +78,6 @@
     <Compile Include="Prototype\Circle.cs" />
     <Compile Include="Prototype\Rectangle.cs" />
     <Compile Include="Prototype\Shape.cs" />
-    <Compile Include="Prototype\ShapeCache.cs" />
     <Compile Include="Prototype\Square.cs" />
   </ItemGroup>
   <ItemGroup>

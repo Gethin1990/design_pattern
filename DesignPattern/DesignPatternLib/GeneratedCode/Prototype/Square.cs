@@ -13,21 +13,6 @@ namespace Prototype
 
 	public class Square : Shape
 	{
-		public override string GetType()
-		{
-			throw new System.NotImplementedException();
-		}
-
-		public override int GetId()
-		{
-			throw new System.NotImplementedException();
-		}
-
-		public override void SetId(int Id)
-		{
-			throw new System.NotImplementedException();
-		}
-
 		public override Object Clone()
 		{
 			throw new System.NotImplementedException();

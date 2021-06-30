@@ -13,29 +13,9 @@ namespace Prototype
 
 	public class Circle : Shape
 	{
-        public Circle()
-        {
-            _type = "Circle";
-        }
-
-        public override string GetType()
-        {
-            return _type;
-        }
-
-		public override int GetId()
-        {
-            return _id;
-        }
-
-		public override void SetId(int Id)
-        {
-            _id = Id;
-        }
-
 		public override Object Clone()
 		{
-            throw new System.NotImplementedException();
+            return (Circle)this.MemberwiseClone();
 		}
 
 	}

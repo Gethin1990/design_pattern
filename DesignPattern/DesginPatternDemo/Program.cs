@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using AbstractFactory;
 using Builder;
 using Factory;
+using Prototype;
 using ShapeFactory = Factory.ShapeFactory;
 
 namespace DesignPatternDemo
@@ -15,9 +16,10 @@ namespace DesignPatternDemo
     {
         static void Main(string[] args)
         {
-            Factory();
-            AbstractFactory();
-            Builder();
+            //Factory();
+            //AbstractFactory();
+            //Builder();
+            Prototype();
         }
 
         private static void Factory()
@@ -56,6 +58,17 @@ namespace DesignPatternDemo
                 Console.WriteLine($"Price:{iMeal.GetPrice()}");
                 Console.WriteLine($"Pack Way:{iMeal.Packing().Pack()}");
             }
+            Console.ReadLine();
+
+        }
+
+        private static void Prototype()
+        {
+            var circle = new Prototype.Circle{Id="circle"};
+            var circle1 = circle.Clone() as Prototype.Shape;
+            var circle2 = circle.Clone() as Prototype.Shape;
+            Console.WriteLine(circle1?.Id);
+            Console.WriteLine(circle2?.Id);
             Console.ReadLine();
 
         }

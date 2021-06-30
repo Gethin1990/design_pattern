@@ -3,3 +3,4 @@ C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\bin\Debug\DesginPatternD
 C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\bin\Debug\DesginPatternDemo.pdb
 C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\obj\Debug\DesginPatternDemo.exe
 C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\obj\Debug\DesginPatternDemo.pdb
+C:\PCode\design_pattern\DesignPattern\DesginPatternDemo\obj\Debug\DesignPatternDemo.csprojResolveAssemblyReference.cache

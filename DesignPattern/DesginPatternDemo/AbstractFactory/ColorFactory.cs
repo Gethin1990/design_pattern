@@ -14,25 +14,10 @@ namespace AbstractFactory
 	public class ColorFactory : AbsrtactFactory
 	{
 		public override IColor GetColor(string colorType)
-		{
-            switch (colorType)
-            {
-                case "red":
-                    return new Red();
-                case "blue":
-                    return new Blue();
-                case "green":
-                    return new Green();
-            }
-
-            return null;
-            //throw new System.NotImplementedException();
+        {
+            return base.GetColor(colorType);
         }
-
-		public override IShape GetShape(string shapeType)
-		{
-			throw new System.NotImplementedException();
-		}
+        
 
 	}
 }

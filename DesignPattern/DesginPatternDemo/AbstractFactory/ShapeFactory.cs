@@ -14,24 +14,10 @@ namespace AbstractFactory
 	public class ShapeFactory : AbsrtactFactory
 	{
 		public override IShape GetShape(string shapeType)
-		{
-            switch (shapeType)
-            {
-                case "rectangle":
-                    return new Rectangle();
-                case "square":
-                    return new Square();
-                case "circle":
-                    return new Circle();
-            }
-
-			return null;
-		}
-
-		public override IColor GetColor(string colorType)
-		{
-			throw new System.NotImplementedException();
-		}
+        {
+            return base.GetShape(shapeType);
+        }
+        
 
 	}
 }

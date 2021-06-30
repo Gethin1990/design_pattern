@@ -13,9 +13,15 @@ namespace AbstractFactory
 
 	public abstract class AbsrtactFactory
 	{
-		public abstract IShape GetShape(string shapeType);
+		public virtual IShape GetShape(string shapeType)
+		{
+			throw new System.NotImplementedException();
+		}
 
-		public abstract IColor GetColor(string colorType);
+		public virtual IColor GetColor(string colorType)
+		{
+			throw new System.NotImplementedException();
+		}
 
 	}
 }

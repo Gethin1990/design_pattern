@@ -13,9 +13,35 @@ namespace AbstractFactory
 
 	public abstract class AbsrtactFactory
 	{
-		public abstract IShape GetShape(string shapeType);
+        public virtual IShape GetShape(string shapeType)
+        {
+            switch (shapeType)
+            {
+                case "rectangle":
+                    return new Rectangle();
+                case "square":
+                    return new Square();
+                case "circle":
+                    return new Circle();
+            }
 
-		public abstract IColor GetColor(string colorType);
+            return null;
+        }
+
+        public virtual IColor GetColor(string colorType)
+        {
+            switch (colorType)
+            {
+                case "red":
+                    return new Red();
+                case "blue":
+                    return new Blue();
+                case "green":
+                    return new Green();
+            }
+
+            return null;
+        }
 
 	}
 }

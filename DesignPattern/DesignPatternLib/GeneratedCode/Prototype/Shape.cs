@@ -13,15 +13,11 @@ namespace Prototype
 
 	public abstract class Shape
 	{
-		protected int _id;
-
-		public string _type;
-
-		public abstract string GetType();
-
-		public abstract int GetId();
-
-		public abstract void SetId(int Id);
+		protected virtual string Id
+		{
+			get;
+			set;
+		}
 
 		public abstract Object Clone();
 

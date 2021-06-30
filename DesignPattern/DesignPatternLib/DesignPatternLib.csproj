@@ -68,6 +68,7 @@
     <Compile Include="GeneratedCode\Builder\Bottle.cs" />
     <Compile Include="GeneratedCode\Builder\Burger.cs" />
     <Compile Include="GeneratedCode\Builder\ChickenBurger.cs" />
+    <Compile Include="GeneratedCode\Builder\Circle.cs" />
     <Compile Include="GeneratedCode\Builder\Coke.cs" />
     <Compile Include="GeneratedCode\Builder\Drink.cs" />
     <Compile Include="GeneratedCode\Builder\IPacking.cs" />
@@ -86,7 +87,6 @@
     <Compile Include="GeneratedCode\Prototype\Circle.cs" />
     <Compile Include="GeneratedCode\Prototype\Rectangle.cs" />
     <Compile Include="GeneratedCode\Prototype\Shape.cs" />
-    <Compile Include="GeneratedCode\Prototype\ShapeCache.cs" />
     <Compile Include="GeneratedCode\Prototype\Square.cs" />
     <Compile Include="GeneratedCode\Proxy\IImage.cs" />
     <Compile Include="GeneratedCode\Proxy\ProxyDemo.cs" />

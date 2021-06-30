@@ -492,93 +492,6 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation
-            Id="bc8ba930-a577-480d-b721-66b379e83384"
-            name="GetColor"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="d5629564-c616-4d2f-acab-c081d241dc3b"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="a6b8155f-5975-4422-b2ce-50e254a6b08c">
-                    <propertyInstance
-                      Id="deec77b3-4c45-43b9-96c9-1eb08dbf452d"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3a51966e-527a-42a2-9e58-65909dd8eb07">
-                    <propertyInstance
-                      Id="c24ec707-0769-4b6d-aa26-ce078fbf58b8"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8b4b9f8b-d06b-485b-bbcd-57412c0bb379">
-                    <propertyInstance
-                      Id="08a7ee38-6c38-43d5-a66c-ecead8c11f63"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="66a456a9-828b-47ef-870a-df5746556578">
-                    <propertyInstance
-                      Id="d05718d0-0562-4e42-ba02-884fcd5f73fe"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="2d8d01fd-9a43-45ca-ac5c-90bb376f67cf">
-                    <propertyInstance
-                      Id="82a51183-a10e-41ae-a47f-eebd90a524fc"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="604a01db-ebe2-418f-96c9-9b3713a60274">
-                    <propertyInstance
-                      Id="054f6612-844e-4281-b5cf-80e05c592420"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="5a387a8c-6e30-4b00-9dcf-e31506c4bc65"
-                  name="colorType"
-                  direction="In"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="04bc8bd1-05c8-4f73-bf2a-42f8def262fe"
-                  direction="Return">
-                  <type_NamedElement>
-                    <interfaceMoniker
-                      Id="e64e9b4c-b519-4eb8-9754-bfaae7f026f3"
-                      LastKnownName="IColor"
-                      LastKnownLocation="Package_1038.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -1255,92 +1168,6 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation
-            Id="baad9bba-f430-4627-a2d4-250c8eacd9ec"
-            name="GetShape"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="5698acd9-62e5-4945-a390-ff47e586b166"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="ac9c1bf7-d936-4b93-9da1-4819f947c98c">
-                    <propertyInstance
-                      Id="24136396-f932-4985-b7a8-fea0191f99ac"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="f1ba67aa-c9ba-4033-a5ea-5653baad23b2">
-                    <propertyInstance
-                      Id="13fe7585-b033-4847-9077-057fdf8167a6"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="560a7701-31e0-45ad-a4a6-d768b8d36f42">
-                    <propertyInstance
-                      Id="775c8e60-8ab4-4a35-bc8e-9486ea43c0c6"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="4ddaca0a-0c55-4699-84ca-dde9ba9f5673">
-                    <propertyInstance
-                      Id="6ba32aab-7f5d-4f0e-8c56-3fc2915b8e72"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="5b3c334b-a1ce-4778-a9aa-9ec048de0caa">
-                    <propertyInstance
-                      Id="f14d8ef6-5185-4aef-8dbe-fa0001de4e48"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="0fc98d3c-ff97-4141-a8a9-dcb80aee9d9b">
-                    <propertyInstance
-                      Id="9c8b49e3-0808-4a76-b58e-6a7d8105093f"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="c5d46429-ead8-4c10-8d06-21cb22449ff9"
-                  name="shapeType"
-                  direction="In">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="DesignPattern.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="fecffaf2-5e4b-468e-8cfa-936bc6a39a29"
-                  direction="Return">
-                  <type_NamedElement>
-                    <interfaceMoniker
-                      Id="bb3caf22-c118-4897-b5f8-73ccc93a90f1"
-                      LastKnownName="IShape"
-                      LastKnownLocation="Package_1038.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -1644,7 +1471,7 @@
             name="GetShape"
             isLeaf="false"
             isStatic="false"
-            isAbstract="true"
+            isAbstract="false"
             concurrency="Sequential"
             isQuery="false">
             <appliedStereotypesInternal>
@@ -1730,7 +1557,7 @@
             name="GetColor"
             isLeaf="false"
             isStatic="false"
-            isAbstract="true"
+            isAbstract="false"
             concurrency="Sequential"
             isQuery="false">
             <appliedStereotypesInternal>

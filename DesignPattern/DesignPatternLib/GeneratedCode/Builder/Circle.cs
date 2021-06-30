@@ -4,27 +4,17 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Prototype
+namespace Builder
 {
+	using AbstractFactory;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class ShapeCache
+	public class Circle : IShape
 	{
-		private Dictionary<string,string> shapeMap
-		{
-			get;
-			set;
-		}
-
-		public virtual Shape GetShape()
-		{
-			throw new System.NotImplementedException();
-		}
-
-		public virtual void LoadCache()
+		public virtual void Draw()
 		{
 			throw new System.NotImplementedException();
 		}

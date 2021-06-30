@@ -18,11 +18,6 @@ namespace AbstractFactory
 			throw new System.NotImplementedException();
 		}
 
-		public override IShape GetShape(string shapeType)
-		{
-			throw new System.NotImplementedException();
-		}
-
 	}
 }
 
