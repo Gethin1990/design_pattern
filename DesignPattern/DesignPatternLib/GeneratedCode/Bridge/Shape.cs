@@ -13,7 +13,7 @@ namespace Bridge
 
 	public abstract class Shape
 	{
-		public virtual DrawAPI DrawAPI
+		public virtual IDrawAPI DrawAPI
 		{
 			get;
 			set;

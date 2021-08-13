@@ -59,7 +59,7 @@
             Id="dfdcac6a-d531-40ee-9bd1-4e323b81bb23">
             <interfaceMoniker
               Id="e576a62e-8231-476e-8d90-bddbddaa132c"
-              LastKnownName="DrawAPI"
+              LastKnownName="IDrawAPI"
               LastKnownLocation="Package_1541.uml" />
           </interfaceRealization>
         </suppliersInternal>
@@ -181,7 +181,7 @@
             Id="a6f62a3b-852b-46db-aff9-4f6fd8c57e7a">
             <interfaceMoniker
               Id="e576a62e-8231-476e-8d90-bddbddaa132c"
-              LastKnownName="DrawAPI"
+              LastKnownName="IDrawAPI"
               LastKnownLocation="Package_1541.uml" />
           </interfaceRealization>
         </suppliersInternal>
@@ -251,7 +251,7 @@
     <packageHasNamedElement>
       <Interface
         Id="e576a62e-8231-476e-8d90-bddbddaa132c"
-        name="DrawAPI"
+        name="IDrawAPI"
         isAbstract="false"
         isLeaf="false">
         <appliedStereotypesInternal>
@@ -536,7 +536,7 @@
             isAbstract="false">
             <interfaceMoniker
               Id="e576a62e-8231-476e-8d90-bddbddaa132c"
-              LastKnownName="DrawAPI"
+              LastKnownName="IDrawAPI"
               LastKnownLocation="Package_1541.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>

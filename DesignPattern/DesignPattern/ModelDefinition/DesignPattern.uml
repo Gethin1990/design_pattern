@@ -174,6 +174,101 @@
         Id="57749ea4-5e6d-45e9-8975-f94c275298a7"
         name="In" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7b0c7b2b-3b55-4927-9e43-4292a388362a"
+        LastKnownName="Composite"
+        LastKnownLocation="Package_1045.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="dd8114b6-fd62-4724-b752-1f5b82dcf2ce"
+        name="List&lt;Employee&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e37bc85d-6e6f-4c8f-8aec-22733aa086d2"
+        LastKnownName="Decorator"
+        LastKnownLocation="Package_1102.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="86b104b9-c50c-4d03-98b8-50ee081ecb66"
+        LastKnownName="Facade"
+        LastKnownLocation="Package_1351.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ba3f170d-4f6e-419f-930e-f3d8d06d6e1e"
+        LastKnownName="Flyweight"
+        LastKnownLocation="Package_1444.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b08ab267-8b71-4170-b925-29d78f325db2"
+        LastKnownName="Chain"
+        LastKnownLocation="Package_1530.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f43eaeab-fd6c-4a7b-91c9-219d56893527"
+        LastKnownName="Command"
+        LastKnownLocation="Package_1547.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0e98ecec-9a0e-4a98-9647-109c7395f57f"
+        LastKnownName="Interpreter"
+        LastKnownLocation="Package_1617.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ec50b4d3-3981-40c2-baee-21f19d9ae8aa"
+        LastKnownName="Iterator"
+        LastKnownLocation="Package_1453.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ca2c5309-eb24-480c-9cee-af69883eb71e"
+        LastKnownName="Mediator"
+        LastKnownLocation="Package_1619.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="da67d4cd-27f8-4da2-867b-d658474b008a"
+        LastKnownName="Memento"
+        LastKnownLocation="Package_0949.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="25967cb6-9e13-468d-8201-39565ac0b8be"
+        LastKnownName="Observer"
+        LastKnownLocation="Package_1005.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b5ac635a-1166-49a8-b931-a831254ee466"
+        LastKnownName="State"
+        LastKnownLocation="Package_1019.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="893c6943-1d23-4ebb-9343-5514e0158a7c"
+        LastKnownName="Strategy"
+        LastKnownLocation="Package_1050.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="922630e3-4f99-4141-814d-709532903950"
+        LastKnownName="Visitor"
+        LastKnownLocation="Package_1104.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ebc95d51-53c7-4ec0-a83a-4a299fdf744a"
+        LastKnownName="Template"
+        LastKnownLocation="Package_1105.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

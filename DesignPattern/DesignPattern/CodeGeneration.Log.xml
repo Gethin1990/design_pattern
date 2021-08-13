@@ -6,34 +6,35 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="High" Text="Code generation or text transformation started." />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Diagnostic" Text="Name = ClassTemplate" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Medium" Text="DesignPattern's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'DesignPattern::Prototype::Shape' -  (Class), 'DesignPattern::Prototype::Circle' -  (Class), 'DesignPattern::Prototype::Rectangle' -  (Class), 'DesignPattern::Prototype::Square' -  (Class) " />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Medium" Text="'DesignPattern::Prototype::Shape' -  (Class) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Prototype\Shape.cs" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Medium" Text="'DesignPattern::Prototype::Circle' -  (Class) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Prototype\Circle.cs" />
-  <Message Timestamp="2021-06-30T11:01:14" Importance="Medium" Text="'DesignPattern::Prototype::Rectangle' -  (Class) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Prototype\Rectangle.cs" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Medium" Text="'DesignPattern::Prototype::Square' -  (Class) : success (file created) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Prototype\Square.cs" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="Name = StructTemplate" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Medium" Text="DesignPattern's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'DesignPattern::Prototype::Shape' -  (Class), 'DesignPattern::Prototype::Circle' -  (Class), 'DesignPattern::Prototype::Rectangle' -  (Class), 'DesignPattern::Prototype::Square' -  (Class) " />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="'DesignPattern::Prototype::Shape' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="'DesignPattern::Prototype::Circle' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="'DesignPattern::Prototype::Rectangle' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="'DesignPattern::Prototype::Square' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="'c77828ef-8cbc-4c09-b2db-b5cb782b2949' -  (Generalization): no bound template." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="'60504cc4-48d4-484d-9e37-0e174330fbc8' -  (Generalization): no bound template." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="Diagnostic" Text="'02c138d9-5352-4aa6-8e29-dfbf1ab598e4' -  (Generalization): no bound template." />
-  <Message Timestamp="2021-06-30T11:01:15" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2021-08-13T16:31:01" Importance="Medium" Text="DesignPattern's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'DesignPattern::Memento::MementoDemo' -  (Class), 'DesignPattern::Memento::Originator' -  (Class), 'DesignPattern::Memento::CareTaker' -  (Class), 'DesignPattern::Memento::Memento' -  (Class) " />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Medium" Text="'DesignPattern::Memento::MementoDemo' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Memento\MementoDemo.cs" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Medium" Text="'DesignPattern::Memento::Originator' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Memento\Originator.cs" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Medium" Text="'DesignPattern::Memento::CareTaker' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Memento\CareTaker.cs" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Medium" Text="'DesignPattern::Memento::Memento' -  (Class) : success (file replaced) - C:\PCode\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Memento\Memento.cs" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Medium" Text="DesignPattern's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'DesignPattern::Memento::MementoDemo' -  (Class), 'DesignPattern::Memento::Originator' -  (Class), 'DesignPattern::Memento::CareTaker' -  (Class), 'DesignPattern::Memento::Memento' -  (Class) " />
+  <Message Timestamp="2021-08-13T16:31:02" Importance="Diagnostic" Text="'DesignPattern::Memento::MementoDemo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="'DesignPattern::Memento::Originator' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="'DesignPattern::Memento::CareTaker' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="'DesignPattern::Memento::Memento' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="The selection included 4 elements which were not bound to a template." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="'DesignPattern::Memento::' -  (Dependency): no bound template." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="'DesignPattern::Memento::' -  (Dependency): no bound template." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="'DesignPattern::Memento::' -  (Association): no bound template." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="Diagnostic" Text="'DesignPattern::Memento::' -  (Association): no bound template." />
+  <Message Timestamp="2021-08-13T16:31:03" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>

@@ -1,25 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using AbstractFactory;
 using Builder;
 using Factory;
-using Prototype;
+using Memento;
+using Observer;
+using State;
+using Strategy;
+using Template;
+using Visitor;
 using ShapeFactory = Factory.ShapeFactory;
 
 namespace DesignPatternDemo
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
             //Factory();
             //AbstractFactory();
             //Builder();
-            Prototype();
+            //Prototype();
+            Memento();
+            //Observer();
+            //State();
+            //Strategy();
+            //Template();
+            //Visitor();
+            Console.ReadLine();
         }
 
         private static void Factory()
@@ -29,7 +36,6 @@ namespace DesignPatternDemo
             circle.Draw();
             var rectangle = factory.GetSharp(ShapeType.Rectangle);
             rectangle.Draw();
-            Console.ReadLine();
         }
 
         private static void AbstractFactory()
@@ -44,7 +50,6 @@ namespace DesignPatternDemo
             circle.Draw();
             red.Fill();
             blue.Fill();
-            Console.ReadLine();
         }
 
         private static void Builder()
@@ -58,7 +63,6 @@ namespace DesignPatternDemo
                 Console.WriteLine($"Price:{iMeal.GetPrice()}");
                 Console.WriteLine($"Pack Way:{iMeal.Packing().Pack()}");
             }
-            Console.ReadLine();
 
         }
 
@@ -69,8 +73,43 @@ namespace DesignPatternDemo
             var circle2 = circle.Clone() as Prototype.Shape;
             Console.WriteLine(circle1?.Id);
             Console.WriteLine(circle2?.Id);
-            Console.ReadLine();
 
+        }
+
+        private static void Memento()
+        {
+            var demo = new MementoDemo();
+            demo.Main();
+        }
+
+        private static void Observer()
+        {
+            var demo = new ObserverDemo();
+            demo.Main();
+        }
+
+        private static void State()
+        {
+            var demo = new StateDemo();
+            demo.Main();
+        }
+
+        private static void Strategy()
+        {
+            var demo = new StrategyDemo();
+            demo.Main();
+        }
+
+        private static void Template()
+        {
+            var demo = new TemplateDemo();
+            demo.Main();
+        }
+
+        private static void Visitor()
+        {
+            var demo = new VisitorDemo();
+            demo.Main();
         }
     }
 }

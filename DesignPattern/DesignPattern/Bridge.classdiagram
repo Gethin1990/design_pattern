@@ -72,35 +72,9 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="d06146b2-ce30-46b9-b4d7-d455d21d2330">
-      <profileInstance Id="ff1bafcb-b5fa-4151-b33f-ef8209b2e779" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="f878bb49-eb79-4d5d-9e7c-ffe7bd626484">
-      <profileInstance Id="dc572b89-5b19-44ae-a49c-b053754d30c6" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="61fb7b0a-736a-4950-b6a0-bbe7027f3bff">
-      <profileInstance Id="b3299cdc-1174-4fb1-a38f-b0ba4c104d35" name="CSharpProfile">
-        <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
-      </profileInstance>
-      <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="c2de8efd-1616-4c5a-85ac-87e1ef8ba22e">
-      <profileInstance Id="1f1a5b3c-94f1-466c-9d0e-129d215c8c7c" name="TextTemplateBindings">
-        <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
-      </profileInstance>
-      <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
-      <Interface Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" name="DrawAPI" isAbstract="false" isLeaf="false">
+      <Interface Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" name="IDrawAPI" isAbstract="false" isLeaf="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="623511f7-92c2-4797-b958-e464034dd06e" name="interface" profile="CSharpProfile">
             <elementDefinition Id="3bf7dbbf-d5a6-4111-a3f2-64f27caf8f6a" />
@@ -273,7 +247,7 @@
         <elementDefinition Id="7b45ec41-1256-4796-b105-97aa45851d08" />
         <suppliersInternal>
           <interfaceRealization Id="7f65bbdd-baaa-4863-bdb4-a8c33c2088ef">
-            <interfaceMoniker Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" LastKnownName="DrawAPI" />
+            <interfaceMoniker Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" LastKnownName="IDrawAPI" />
             <elementDefinition Id="dfdcac6a-d531-40ee-9bd1-4e323b81bb23" />
           </interfaceRealization>
         </suppliersInternal>
@@ -369,7 +343,7 @@
         <elementDefinition Id="ea7f3aed-2225-4031-bc07-109835efce69" />
         <suppliersInternal>
           <interfaceRealization Id="37d8c3f0-2bd7-4190-be3f-8bdd634000c8">
-            <interfaceMoniker Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" LastKnownName="DrawAPI" />
+            <interfaceMoniker Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" LastKnownName="IDrawAPI" />
             <elementDefinition Id="a6f62a3b-852b-46db-aff9-4f6fd8c57e7a" />
           </interfaceRealization>
         </suppliersInternal>
@@ -465,7 +439,7 @@
         <elementDefinition Id="cd2ae37c-32d1-4956-9746-9a55e693669a" />
         <targetEnds>
           <association Id="394c0eea-a930-4353-9f9b-446e6dfc9589" isDerived="false" sourceEndRoleName="Shape" targetEndRoleName="DrawAPI" isLeaf="false" isAbstract="false">
-            <interfaceMoniker Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" LastKnownName="DrawAPI" />
+            <interfaceMoniker Id="8b0f8248-b5c2-45aa-a87b-9746c3cd68a8" LastKnownName="IDrawAPI" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="35590971-d064-4853-86ba-56418830a799" name="Shape" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -630,5 +604,31 @@
   </packagedElements>
   <package Id="871b8427-53cf-48b9-96e1-ebce70361f13" name="DesignPattern">
     <elementDefinition Id="7db9f246-c4a2-4ff0-9953-817e64c534bc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d06146b2-ce30-46b9-b4d7-d455d21d2330">
+        <profileInstance Id="ff1bafcb-b5fa-4151-b33f-ef8209b2e779" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f878bb49-eb79-4d5d-9e7c-ffe7bd626484">
+        <profileInstance Id="dc572b89-5b19-44ae-a49c-b053754d30c6" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="61fb7b0a-736a-4950-b6a0-bbe7027f3bff">
+        <profileInstance Id="b3299cdc-1174-4fb1-a38f-b0ba4c104d35" name="CSharpProfile">
+          <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
+        </profileInstance>
+        <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c2de8efd-1616-4c5a-85ac-87e1ef8ba22e">
+        <profileInstance Id="1f1a5b3c-94f1-466c-9d0e-129d215c8c7c" name="TextTemplateBindings">
+          <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
+        </profileInstance>
+        <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

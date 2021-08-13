@@ -13,6 +13,12 @@ namespace Proxy
 
 	public class ProxyImage : IImage
 	{
+		public virtual RealImage RealImage
+		{
+			get;
+			set;
+		}
+
 		public virtual void Display()
 		{
 			throw new System.NotImplementedException();

@@ -50,13 +50,110 @@
       <SubType>Content</SubType>
       <DependentUpon>Builder.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Chain.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Chain.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Chain.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Command.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Command.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Command.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Composite.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Composite.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Composite.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Decorator.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Decorator.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Decorator.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Facade.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Facade.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Facade.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Flyweight.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Flyweight.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Flyweight.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Interpreter.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Interpreter.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Interpreter.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Iterator.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Iterator.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Iterator.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Mediator.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mediator.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Mediator.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Memento.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Memento.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Memento.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package_0949.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_0955.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1005.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1019.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1038.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1045.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1050.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1102.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1104.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1105.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1302.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1351.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1356.uml">
@@ -65,11 +162,36 @@
     <Content Include="ModelDefinition\Package_1439.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1444.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1453.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1530.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1541.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1547.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1617.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1619.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1644.uml">
       <SubType>Content</SubType>
+    </Content>
+    <Content Include="Observer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Observer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Observer.classdiagram</DependentUpon>
     </Content>
     <Content Include="Prototype.classdiagram">
       <SubType>Content</SubType>
@@ -84,6 +206,34 @@
     <Content Include="Proxy.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>Proxy.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="State.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="State.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>State.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Strategy.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Strategy.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Strategy.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Visitor.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Visitor.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Visitor.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Template.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Template.classdiagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="Factory.classdiagram">

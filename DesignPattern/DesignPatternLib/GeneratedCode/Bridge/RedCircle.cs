@@ -11,7 +11,7 @@ namespace Bridge
 	using System.Linq;
 	using System.Text;
 
-	public class RedCircle : DrawAPI
+	public class RedCircle : IDrawAPI
 	{
 		public virtual void DrawCircle()
 		{
