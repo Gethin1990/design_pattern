@@ -1,5 +1,0 @@
-C:\PCode\design_pattern\DesignPattern\DesignPatternLib\bin\Debug\DesignPatternLib.dll
-C:\PCode\design_pattern\DesignPattern\DesignPatternLib\bin\Debug\DesignPatternLib.pdb
-C:\PCode\design_pattern\DesignPattern\DesignPatternLib\obj\Debug\DesignPatternLib.dll
-C:\PCode\design_pattern\DesignPattern\DesignPatternLib\obj\Debug\DesignPatternLib.pdb
-C:\PCode\design_pattern\DesignPattern\DesignPatternLib\obj\Debug\DesignPatternLib.csprojResolveAssemblyReference.cache
