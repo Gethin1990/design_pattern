@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Visitor">
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Template">
   <logicalClassDesignerModelMoniker Id="22fdaf8a-3c5d-4ad6-a6b8-059787da4d86" />
   <nestedChildShapes>
     <classShape Id="47d3b6c8-e5b1-4f92-b6e5-c767dd42af30" absoluteBounds="4.125, 1.875, 1.5, 1.6683043545484542" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
