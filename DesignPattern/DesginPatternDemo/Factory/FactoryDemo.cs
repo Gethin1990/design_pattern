@@ -4,21 +4,23 @@
 //     如果重新生成代码，将丢失对此文件所做的更改。
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Factory
 {
-	using Factory;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class Circle : IShape, IShape
+	public class FactoryDemo
 	{
-		public virtual void Draw()
-		{
-			throw new System.NotImplementedException();
-		}
-
-	}
+        public void Main()
+        {
+            var factory = new ShapeFactory();
+            var circle = factory.GetSharp(ShapeType.Circle);
+            circle.Draw();
+            var rectangle = factory.GetSharp(ShapeType.Rectangle);
+            rectangle.Draw();
+        }
+    }
 }
 

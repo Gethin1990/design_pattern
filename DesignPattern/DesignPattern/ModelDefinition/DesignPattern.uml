@@ -264,6 +264,12 @@
         Id="e9dabae5-b03b-40d1-b986-dd6d02f8a4dc"
         name="List&lt;string&gt;" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e48fad70-a924-4b54-af2f-c95e70e1a6f8"
+        LastKnownName="Singleton "
+        LastKnownLocation="Package_1311.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

@@ -4,21 +4,20 @@
 //     如果重新生成代码，将丢失对此文件所做的更改。
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Singleton
 {
-	using Factory;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class Circle : IShape, IShape
+	public class SingletonDemo
 	{
-		public virtual void Draw()
-		{
-			throw new System.NotImplementedException();
-		}
-
+        public void Main()
+        {
+            var ob = SingletonObject.Instance;
+            ob.ShowMessage();
+        }
 	}
 }
 

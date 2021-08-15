@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GeneratedCode\AbstractFactory\AbsrtactFactory.cs" />
+    <Compile Include="GeneratedCode\AbstractFactory\AbstractFactoryDemo.cs" />
     <Compile Include="GeneratedCode\AbstractFactory\Blue.cs" />
     <Compile Include="GeneratedCode\AbstractFactory\Circle.cs" />
     <Compile Include="GeneratedCode\AbstractFactory\ColorFactory.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="GeneratedCode\Bridge\RedCircle.cs" />
     <Compile Include="GeneratedCode\Bridge\Shape.cs" />
     <Compile Include="GeneratedCode\Builder\Bottle.cs" />
+    <Compile Include="GeneratedCode\Builder\BuilderDemo.cs" />
     <Compile Include="GeneratedCode\Builder\Burger.cs" />
     <Compile Include="GeneratedCode\Builder\ChickenBurger.cs" />
     <Compile Include="GeneratedCode\Builder\Circle.cs" />
@@ -104,6 +106,7 @@
     <Compile Include="GeneratedCode\Facade\Rectangle.cs" />
     <Compile Include="GeneratedCode\Facade\ShapeMaker.cs" />
     <Compile Include="GeneratedCode\Factory\Circle.cs" />
+    <Compile Include="GeneratedCode\Factory\FactoryDemo.cs" />
     <Compile Include="GeneratedCode\Factory\IShape.cs" />
     <Compile Include="GeneratedCode\Factory\Rectangle.cs" />
     <Compile Include="GeneratedCode\Factory\ShapeFactory.cs" />
@@ -137,6 +140,7 @@
     <Compile Include="GeneratedCode\Observer\OctalObserver.cs" />
     <Compile Include="GeneratedCode\Observer\Subject.cs" />
     <Compile Include="GeneratedCode\Prototype\Circle.cs" />
+    <Compile Include="GeneratedCode\Prototype\PrototypeDemo.cs" />
     <Compile Include="GeneratedCode\Prototype\Rectangle.cs" />
     <Compile Include="GeneratedCode\Prototype\Shape.cs" />
     <Compile Include="GeneratedCode\Prototype\Square.cs" />
@@ -144,6 +148,8 @@
     <Compile Include="GeneratedCode\Proxy\ProxyDemo.cs" />
     <Compile Include="GeneratedCode\Proxy\ProxyImage.cs" />
     <Compile Include="GeneratedCode\Proxy\RealImage.cs" />
+    <Compile Include="GeneratedCode\Singleton\SingletonDemo.cs" />
+    <Compile Include="GeneratedCode\Singleton\SingletonObject.cs" />
     <Compile Include="GeneratedCode\State\Context.cs" />
     <Compile Include="GeneratedCode\State\IState.cs" />
     <Compile Include="GeneratedCode\State\StartState.cs" />

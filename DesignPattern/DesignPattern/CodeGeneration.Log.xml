@@ -6,29 +6,57 @@
   <MessageClass Name="Error" Label="错误" Option="显示错误" />
   <MessageClass Name="Property" Label="属性" Option="显示元数据" />
   <MessageClass Name="Diagnostic" Label="消息" Option="显示诊断消息" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="High" Text="已启动代码生成或文本转换。" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Diagnostic" Text="名称 = ClassTemplate" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Diagnostic" Text="覆盖 = True" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2021-08-14T21:16:56" Importance="Medium" Text="DesignPattern 的文本模板绑定: “ClassTemplate”会将 ClassTemplate.t4 应用于: “DesignPattern::Composite::CompositeDemo”- (Class), “DesignPattern::Composite::Employee”- (Class) " />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Medium" Text="“DesignPattern::Composite::CompositeDemo”- (Class) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Composite\CompositeDemo.cs" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Medium" Text="“DesignPattern::Composite::Employee”- (Class) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Composite\Employee.cs" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="名称 = StructTemplate" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="覆盖 = True" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Medium" Text="DesignPattern 的文本模板绑定: “StructTemplate”会将 StructTemplate.t4 应用于: “DesignPattern::Composite::CompositeDemo”- (Class), “DesignPattern::Composite::Employee”- (Class) " />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="“DesignPattern::Composite::CompositeDemo”- (Class): 没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="“DesignPattern::Composite::Employee”- (Class): 没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="选定内容包含未绑定到模板的 2 元素。" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="“DesignPattern::Composite::”- (Dependency): 没有绑定的模板。" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="Diagnostic" Text="“DesignPattern::Composite::”- (Association): 没有绑定的模板。" />
-  <Message Timestamp="2021-08-14T21:16:57" Importance="High" Text="代码生成完成。错误: 0。警告: 0。" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="High" Text="已启动代码生成或文本转换。" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Diagnostic" Text="名称 = ClassTemplate" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:22" Importance="Medium" Text="DesignPattern 的文本模板绑定: “ClassTemplate”会将 ClassTemplate.t4 应用于: “DesignPattern::Factory::ShapeFactory”- (Class), “DesignPattern::Factory::FactoryDemo”- (Class), “DesignPattern::Factory::Circle”- (Class), “DesignPattern::Factory::Square”- (Class), “DesignPattern::Factory::Rectangle”- (Class) " />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="“DesignPattern::Factory::ShapeFactory”- (Class) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Factory\ShapeFactory.cs" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="“DesignPattern::Factory::FactoryDemo”- (Class) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Factory\FactoryDemo.cs" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="“DesignPattern::Factory::Circle”- (Class) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Factory\Circle.cs" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="“DesignPattern::Factory::Square”- (Class) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Factory\Square.cs" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="“DesignPattern::Factory::Rectangle”- (Class) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Factory\Rectangle.cs" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="名称 = EnumTemplate" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="DesignPattern 的文本模板绑定: “EnumTemplate”会将 EnumTemplate.t4 应用于: “DesignPattern::Factory::ShapeType”- (Enumeration) " />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="“DesignPattern::Factory::ShapeType”- (Enumeration) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Factory\ShapeType.cs" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="名称 = InterfaceTemplate" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="DesignPattern 的文本模板绑定: “InterfaceTemplate”会将 InterfaceTemplate.t4 应用于: “DesignPattern::Factory::IShape”- (Interface) " />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="“DesignPattern::Factory::IShape”- (Interface) : 成功(已替换文件) - D:\code\design_pattern\DesignPattern\DesignPatternLib\GeneratedCode\Factory\IShape.cs" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="名称 = StructTemplate" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Medium" Text="DesignPattern 的文本模板绑定: “StructTemplate”会将 StructTemplate.t4 应用于: “DesignPattern::Factory::ShapeFactory”- (Class), “DesignPattern::Factory::FactoryDemo”- (Class), “DesignPattern::Factory::Circle”- (Class), “DesignPattern::Factory::Square”- (Class), “DesignPattern::Factory::Rectangle”- (Class) " />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::ShapeFactory”- (Class): 没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::FactoryDemo”- (Class): 没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::Circle”- (Class): 没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::Square”- (Class): 没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::Rectangle”- (Class): 没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="选定内容包含未绑定到模板的 6 元素。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::”- (Dependency): 没有绑定的模板。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::”- (Dependency): 没有绑定的模板。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::”- (Dependency): 没有绑定的模板。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::”- (InterfaceRealization): 没有绑定的模板。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::”- (InterfaceRealization): 没有绑定的模板。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="Diagnostic" Text="“DesignPattern::Factory::”- (InterfaceRealization): 没有绑定的模板。" />
+  <Message Timestamp="2021-08-15T13:33:23" Importance="High" Text="代码生成完成。错误: 0。警告: 0。" />
 </Log>

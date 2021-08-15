@@ -2236,6 +2236,54 @@
         <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
       </referencedType>
     </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b506f0e9-04db-48bb-aaeb-6b6bded4e49e" name="BuilderDemo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="cbe39412-a32b-47e1-b11a-9fe46c312217" name="class" profile="CSharpProfile">
+            <elementDefinition Id="247ec897-3a45-4364-b14b-a6634c9464f7" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0d5e24af-5f6c-4678-9418-8aeae9abe1e6">
+                <propertyInstance Id="b5716f15-c6ce-4790-92db-4b23e4c5c423" name="ClrAttributes">
+                  <elementDefinition Id="1c2ff689-5415-4a7e-831f-44907f5749d2" />
+                </propertyInstance>
+                <elementDefinition Id="34195d9a-5cae-48b8-8831-0b20ddd630e9" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5e4f04b1-bb87-4873-9d71-40432ee4de3d">
+                <propertyInstance Id="10fd181d-bf68-46a9-82af-019e48973187" name="IsPartial" value="false">
+                  <elementDefinition Id="343e9d87-b1e7-44b8-837d-03c53b6b5d58" />
+                </propertyInstance>
+                <elementDefinition Id="75ca1613-d1f0-41f1-99e2-8e800f16440c" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ca761d23-56b3-46d9-a2c7-28f7843434da">
+                <propertyInstance Id="b66c8ba0-6cc3-40f6-a600-df815f48f477" name="IsStatic" value="false">
+                  <elementDefinition Id="5817e02f-6893-4404-b98a-4e1f91fa1ea5" />
+                </propertyInstance>
+                <elementDefinition Id="1f156841-6b98-42ae-a5d4-c57bf4790414" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="901e2a0d-f887-4446-9f5e-2220e8559c9b">
+                <propertyInstance Id="4cc9578f-dbbe-452e-b72b-3289eff01845" name="IsUnsafe" value="false">
+                  <elementDefinition Id="6381a2a0-6709-4cb0-af69-5f48d26b3009" />
+                </propertyInstance>
+                <elementDefinition Id="37b5e04c-ed0e-4e76-bcd0-a6b56f99e701" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8c6d47df-6896-43cb-a659-620819f85e92">
+                <propertyInstance Id="bc3375ac-c352-424d-b564-743a9406a16a" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="fbf45f8d-0a94-4ff6-8886-d102b9319806" />
+                </propertyInstance>
+                <elementDefinition Id="d9f39047-c173-4fb0-8697-116455a63bb2" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="881db628-9b92-4832-8a0f-ce8f783cd846" />
+        <suppliersInternal>
+          <dependency Id="386f8d7f-15c6-4b97-b260-e4b29160a139">
+            <classMoniker Id="41bb701f-dcdc-4549-9a4b-9f52e423b919" LastKnownName="MealBuilder" />
+            <elementDefinition Id="60e18cfa-1e60-40e4-9664-d8353129aa6d" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="ea3bc148-b346-46a6-a239-598e1b8acdf0" name="DesignPattern">
     <elementDefinition Id="7db9f246-c4a2-4ff0-9953-817e64c534bc" />

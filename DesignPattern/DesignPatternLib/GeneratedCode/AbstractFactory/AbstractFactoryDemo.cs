@@ -6,19 +6,13 @@
 //------------------------------------------------------------------------------
 namespace AbstractFactory
 {
-	using Factory;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class Circle : IShape, IShape
+	public class AbstractFactoryDemo
 	{
-		public virtual void Draw()
-		{
-			throw new System.NotImplementedException();
-		}
-
 	}
 }
 

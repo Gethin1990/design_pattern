@@ -4,21 +4,23 @@
 //     如果重新生成代码，将丢失对此文件所做的更改。
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbstractFactory
+namespace Prototype
 {
-	using Factory;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class Circle : IShape, IShape
+	public class PrototypeDemo
 	{
-		public virtual void Draw()
-		{
-			throw new System.NotImplementedException();
-		}
-
-	}
+        public void Main()
+        {
+            var circle = new Prototype.Circle { Id = "circle" };
+            var circle1 = circle.Clone() as Prototype.Shape;
+            var circle2 = circle.Clone() as Prototype.Shape;
+            Console.WriteLine(circle1?.Id);
+            Console.WriteLine(circle2?.Id);
+        }
+    }
 }
 

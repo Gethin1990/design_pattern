@@ -2900,5 +2900,66 @@
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="881db628-9b92-4832-8a0f-ce8f783cd846"
+        name="BuilderDemo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="247ec897-3a45-4364-b14b-a6634c9464f7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="34195d9a-5cae-48b8-8831-0b20ddd630e9">
+                <propertyInstance
+                  Id="1c2ff689-5415-4a7e-831f-44907f5749d2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75ca1613-d1f0-41f1-99e2-8e800f16440c">
+                <propertyInstance
+                  Id="343e9d87-b1e7-44b8-837d-03c53b6b5d58"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f156841-6b98-42ae-a5d4-c57bf4790414">
+                <propertyInstance
+                  Id="5817e02f-6893-4404-b98a-4e1f91fa1ea5"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37b5e04c-ed0e-4e76-bcd0-a6b56f99e701">
+                <propertyInstance
+                  Id="6381a2a0-6709-4cb0-af69-5f48d26b3009"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9f39047-c173-4fb0-8697-116455a63bb2">
+                <propertyInstance
+                  Id="fbf45f8d-0a94-4ff6-8886-d102b9319806"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="60e18cfa-1e60-40e4-9664-d8353129aa6d">
+            <classMoniker
+              Id="34118cc4-2b7a-4d04-bbc9-68da93516b85"
+              LastKnownName="MealBuilder"
+              LastKnownLocation="Package_1302.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
 </package>
