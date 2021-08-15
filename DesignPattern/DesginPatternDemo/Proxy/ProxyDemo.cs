@@ -15,7 +15,7 @@ namespace Proxy
     {
         public void Main()
         {
-            IImage image = new ProxyImage();
+            IImage image = new ProxyImage() { RealImage = new RealImage() };
             image.Display();
         }
     }

@@ -168,6 +168,47 @@
               LastKnownLocation="Package_1547.uml" />
           </interfaceRealization>
         </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="89a5fc0f-de2c-43e1-90e7-f0b29d26a5d2"
+            isDerived="false"
+            sourceEndRoleName="BuyStock"
+            targetEndRoleName="Stock"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="266f5387-4e23-44a5-a678-b76a6fedc3a7"
+              LastKnownName="Stock"
+              LastKnownLocation="Package_1547.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="23b07cbd-fc4c-4984-8212-75dfa5956400"
+                  name="BuyStock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c160dc73-8f85-4f33-93d2-0df3c55d7aec"
+                  name="Stock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation
             Id="0c9c72c7-dd95-4f88-ab98-ee79f7a5f800"
@@ -290,6 +331,47 @@
               LastKnownLocation="Package_1547.uml" />
           </interfaceRealization>
         </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="b2c0d1c0-41a2-4448-91c9-05b34f4d2084"
+            isDerived="false"
+            sourceEndRoleName="SellStock"
+            targetEndRoleName="Stock"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="266f5387-4e23-44a5-a678-b76a6fedc3a7"
+              LastKnownName="Stock"
+              LastKnownLocation="Package_1547.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cc1fc617-af70-4e9b-a9d2-6d6aa67adc53"
+                  name="SellStock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="001ae775-ed41-45fe-96ad-335d55a39fad"
+                  name="Stock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation
             Id="78036532-d1ed-4540-b214-7fb7f042db37"
@@ -356,7 +438,7 @@
     <packageHasNamedElement>
       <class
         Id="40affc67-fc69-4314-ac6a-f1e65dee3f26"
-        name="Broket"
+        name="Broker "
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -403,19 +485,64 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <suppliersInternal>
-          <dependency
-            Id="fd4ee240-336d-490e-ae01-5c15bbb9724f">
+        <targetEnds>
+          <association
+            Id="2af895af-bac2-4fb9-8a52-39cabec756ad"
+            isDerived="false"
+            sourceEndRoleName="Broket"
+            targetEndRoleName="OrderList"
+            isLeaf="false"
+            isAbstract="false">
             <interfaceMoniker
               Id="63841f4c-0e92-4f6a-a564-0f856954e489"
               LastKnownName="IOrder"
               LastKnownLocation="Package_1547.uml" />
-          </dependency>
-        </suppliersInternal>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="42292e36-ae50-459d-8b7f-4ee5d52f2f57"
+                  name="Broket"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6c89b0e8-fb0e-4e9f-8967-7aee007b5ff6"
+                  name="OrderList"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f5a6ee7f-d946-43a1-89ee-9abc1a8f90bb"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b00790fb-7f40-4157-b658-d378283493da"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation
             Id="3431acae-ce29-43ba-a992-2d83ff87defb"
-            name="TakeOrders"
+            name="PlaceOrders"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -474,7 +601,7 @@
           </operation>
           <operation
             Id="d5b6f3d2-7fe1-4123-834a-3e3937c2abb4"
-            name="BuyOrders"
+            name="TakeOrder"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -530,6 +657,22 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6aefdde8-1b59-4143-a119-c17178db87fd"
+                  name="order"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="63841f4c-0e92-4f6a-a564-0f856954e489"
+                      LastKnownName="IOrder"
+                      LastKnownLocation="Package_1547.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -584,86 +727,6 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <targetEnds>
-          <association
-            Id="db4d6036-ee55-41df-ae27-c71934caa4c7"
-            isDerived="false"
-            sourceEndRoleName="Stock"
-            targetEndRoleName="BuyStock"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="67d857cf-5537-4089-8182-c2ac14e863fc"
-              LastKnownName="BuyStock"
-              LastKnownLocation="Package_1547.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="b08b4c06-9cc9-45e4-b5f4-cdb6f247cf7c"
-                  name="Stock"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="e609a477-8d35-4dac-a96b-dd42b9795b59"
-                  name="BuyStock"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-          <association
-            Id="69963f9d-ce83-4cea-8409-9917f35a2c8b"
-            isDerived="false"
-            sourceEndRoleName="Stock"
-            targetEndRoleName="SellStock"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="94f54157-fc13-4b6a-95d4-011674f694e6"
-              LastKnownName="SellStock"
-              LastKnownLocation="Package_1547.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="9505a4eb-0409-4670-9f47-a0f5c1a04882"
-                  name="Stock"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="cb54d5cf-7b71-45dd-9ebe-795a30a30237"
-                  name="SellStock"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
         <ownedOperationsInternal>
           <operation
             Id="70231a2c-3827-4b93-8cd3-e282f9347880"
@@ -848,7 +911,7 @@
             Id="13cceebd-cd89-4c27-936c-80518280bec5">
             <classMoniker
               Id="40affc67-fc69-4314-ac6a-f1e65dee3f26"
-              LastKnownName="Broket"
+              LastKnownName="Broker "
               LastKnownLocation="Package_1547.uml" />
           </dependency>
         </suppliersInternal>

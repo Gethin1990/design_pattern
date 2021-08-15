@@ -117,7 +117,7 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <dependency
-            Id="28732091-d65b-433d-a366-e97f0174b5ec">
+            Id="68866966-757c-4d06-a972-4fb11c71ad19">
             <classMoniker
               Id="8ed0c41e-3778-4480-8ba3-5be4a1e44f04"
               LastKnownName="ChatRoom"
@@ -260,6 +260,21 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c5919571-3dbb-4b2c-aa00-ddc83ba3672a"
+                  name="message"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -319,7 +334,7 @@
             Id="e6acf5bb-b447-4642-a450-db3c6590acc5"
             name="ShowMessage"
             isLeaf="false"
-            isStatic="false"
+            isStatic="true"
             isAbstract="false"
             concurrency="Sequential"
             isQuery="false">
@@ -373,6 +388,36 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="523bcc45-229f-4f43-8c3d-eea18b8e6999"
+                  name="user"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="58c3fb71-abed-45de-9157-5021c4ecf8bd"
+                      LastKnownName="User"
+                      LastKnownLocation="Package_1619.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f738c947-a95e-48d0-b56c-8dfc4ad4af1c"
+                  name="message"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>

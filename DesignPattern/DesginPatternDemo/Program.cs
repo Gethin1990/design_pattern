@@ -9,6 +9,18 @@ using Strategy;
 using Template;
 using Visitor;
 using ShapeFactory = Factory.ShapeFactory;
+using Mediator;
+using Iterator;
+using Interpreter;
+using Flyweight;
+using Facade;
+using Decorator;
+using Chain;
+using Command;
+using Bridge;
+using Adapter;
+using Proxy;
+using Composite;
 
 namespace DesignPatternDemo
 {
@@ -16,16 +28,37 @@ namespace DesignPatternDemo
     {
         static void Main(string[] args)
         {
-            //Factory();
-            //AbstractFactory();
-            //Builder();
-            //Prototype();
+            /*创建型*/
+
+            AbstractFactory();
+            Factory();
+            Builder();
+            Prototype();
+
+            /*结构型*/
+
+            Adapter();
+            Proxy();
+            Bridge();
+            Composite();
+            Decorator();
+            Facade();
+            Flyweight();
+
+            /*行为型*/
+
+            Chain();
+            Command();
+            Mediator();
+            Observer();
+            Iterator();
             Memento();
-            //Observer();
-            //State();
-            //Strategy();
-            //Template();
-            //Visitor();
+            Interpreter();
+            Strategy();
+            Visitor();
+            State();
+            Template();
+
             Console.ReadLine();
         }
 
@@ -76,6 +109,68 @@ namespace DesignPatternDemo
 
         }
 
+        private static void Adapter()
+        {
+            var demo = new AdapterDemo();
+            demo.Main();
+        }
+        private static void Bridge()
+        {
+            var demo = new BridgeDemo();
+            demo.Main();
+        }
+
+        private static void Chain()
+        {
+            var demo = new ChainDemo();
+            demo.Main();
+        }
+
+        private static void Command()
+        {
+            var demo = new CommandDemo();
+            demo.Main();
+        }
+        private static void Composite()
+        {
+            var demo = new CompositeDemo();
+            demo.Main();
+        }
+
+        private static void Facade()
+        {
+            var demo = new FacadeDemo();
+            demo.Main();
+        }
+
+        private static void Decorator()
+        {
+            var demo = new DecoratorDemo();
+            demo.Main();
+        }
+
+        private static void Flyweight()
+        {
+            var demo = new FlyweightDemo();
+            demo.Main();
+        }
+        private static void Interpreter()
+        {
+            var demo = new InterpreterDemo();
+            demo.Main();
+        }
+        private static void Iterator()
+        {
+            var demo = new IteratorDemo();
+            demo.Main();
+        }
+
+        private static void Mediator()
+        {
+            var demo = new MediatorDemo();
+            demo.Main();
+        }
+
         private static void Memento()
         {
             var demo = new MementoDemo();
@@ -85,6 +180,12 @@ namespace DesignPatternDemo
         private static void Observer()
         {
             var demo = new ObserverDemo();
+            demo.Main();
+        }
+
+        private static void Proxy()
+        {
+            var demo = new ProxyDemo();
             demo.Main();
         }
 

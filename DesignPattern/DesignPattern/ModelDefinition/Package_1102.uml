@@ -66,7 +66,7 @@
         <ownedOperationsInternal>
           <operation
             Id="6c038cd1-e2a9-4354-bc03-a1ee08c350d8"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -188,7 +188,7 @@
         <ownedOperationsInternal>
           <operation
             Id="69fa53da-e4a1-49ad-b2a2-36604011ec10"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -351,7 +351,7 @@
         <ownedOperationsInternal>
           <operation
             Id="2f78f713-cf4e-47d0-af88-2eb2f33b916d"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -474,7 +474,7 @@
         <ownedOperationsInternal>
           <operation
             Id="3ea6268d-ab3b-4a1e-bc09-d9cb2d4edcd1"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -579,7 +579,7 @@
         <ownedOperations>
           <operation
             Id="5d6bd7a0-78f1-4ad4-8558-6feedaec8f83"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="true"
@@ -638,6 +638,67 @@
           </operation>
         </ownedOperations>
       </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8669e73f-8906-4ce8-a178-e800a958eb7b"
+        name="DecoratorDemo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="444db421-a088-412c-82eb-1c3673743955"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03e9db5c-f65d-4f88-ad95-871fe616574b">
+                <propertyInstance
+                  Id="07a98203-1fc2-4b0a-bb7e-59f40061773e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f74bcef-199d-4f00-a0dc-01e559b506c1">
+                <propertyInstance
+                  Id="0e488cec-9b8a-4cae-9e45-3d382facd3ad"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dbe0bfbe-5b09-439f-bcb2-f0272999b64f">
+                <propertyInstance
+                  Id="f7608d41-49f0-498c-9426-3321b401742a"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b07fb10-35f3-4545-9cd2-555f84cd126c">
+                <propertyInstance
+                  Id="70a2ed30-2024-436b-8627-c64ee3404716"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d67024a6-7c59-4763-af3b-3722901f3006">
+                <propertyInstance
+                  Id="95c46e24-53c0-4521-94d5-c2ac3b10ce86"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="39e5cbb3-a926-402b-9951-67de94c62959">
+            <classMoniker
+              Id="82e8e812-ee53-4c84-9f4b-6e62c5ceb34c"
+              LastKnownName="ShapeDecorator"
+              LastKnownLocation="Package_1102.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
 </package>

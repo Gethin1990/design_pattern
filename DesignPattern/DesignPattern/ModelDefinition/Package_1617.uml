@@ -122,6 +122,20 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eff39cde-128a-4719-98ed-af4e430e6f2d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="00540e83-87eb-4c33-9325-95a455691657"
+                      LastKnownName="IExpression"
+                      LastKnownLocation="Package_1617.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation
             Id="3d5981f1-97d4-4eef-94f2-85ae912de8e9"
@@ -181,6 +195,20 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b1c4031b-55c7-4489-8da1-95ff30ecddfd"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="00540e83-87eb-4c33-9325-95a455691657"
+                      LastKnownName="IExpression"
+                      LastKnownLocation="Package_1617.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -295,6 +323,19 @@
                     <primitiveTypeMoniker
                       Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
                       LastKnownName="Boolean"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f1e5a78f-d603-4150-a6d3-8a59752de4aa"
+                  name="context"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
                       LastKnownLocation="DesignPattern.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -508,6 +549,19 @@
                     <primitiveTypeMoniker
                       Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
                       LastKnownName="Boolean"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a9b6ceb5-0f53-4528-84ea-fd82604c0cd0"
+                  name="context"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
                       LastKnownLocation="DesignPattern.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -800,6 +854,19 @@
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5bd0b304-2af6-47a5-80d7-dd2b3ea1ca41"
+                  name="context"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
         </ownedOperationsInternal>
@@ -1084,6 +1151,19 @@
                     <primitiveTypeMoniker
                       Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
                       LastKnownName="Boolean"
+                      LastKnownLocation="DesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5dad5189-bef9-4062-89d5-b2e491bb5cfc"
+                  name="context"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
                       LastKnownLocation="DesignPattern.uml" />
                   </type_NamedElement>
                 </parameter>

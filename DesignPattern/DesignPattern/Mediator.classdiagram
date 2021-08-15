@@ -162,9 +162,9 @@
         </appliedStereotypesInternal>
         <elementDefinition Id="58c3fb71-abed-45de-9157-5021c4ecf8bd" />
         <suppliersInternal>
-          <dependency Id="d9f9f9ed-3740-412e-b37e-f34aa21b22a8">
+          <dependency Id="bc8ce7d5-1edd-4543-8cf2-1fd3b1999ba3">
             <classMoniker Id="00fc1362-966c-450e-b59a-ce2c8d371aad" LastKnownName="ChatRoom" />
-            <elementDefinition Id="28732091-d65b-433d-a366-e97f0174b5ec" />
+            <elementDefinition Id="68866966-757c-4d06-a972-4fb11c71ad19" />
           </dependency>
         </suppliersInternal>
         <ownedAttributesInternal>
@@ -270,6 +270,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="0ce38848-e65a-4f13-8151-6100590ef85e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="88775972-74fd-41f8-b70d-f3df91fa08d6" name="message" direction="In">
+                  <elementDefinition Id="c5919571-3dbb-4b2c-aa00-ddc83ba3672a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b1279209-22f4-4215-9589-fc50b621d0aa" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -315,7 +325,7 @@
         </appliedStereotypesInternal>
         <elementDefinition Id="8ed0c41e-3778-4480-8ba3-5be4a1e44f04" />
         <ownedOperationsInternal>
-          <operation Id="611ddc67-eda8-48ee-bc71-ecbe0242b949" name="ShowMessage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="611ddc67-eda8-48ee-bc71-ecbe0242b949" name="ShowMessage" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="86b181ef-6890-48d8-9cc2-b86d1be8bfbb" name="method" profile="CSharpProfile">
                 <elementDefinition Id="7a070c98-575f-4f28-bb8d-61ce6517f567" />
@@ -360,6 +370,24 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="e6acf5bb-b447-4642-a450-db3c6590acc5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ae9c89ce-cc46-4b9f-a4ed-e3ac9036882e" name="user" direction="In" isUnique="false">
+                  <elementDefinition Id="523bcc45-229f-4f43-8c3d-eea18b8e6999" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d6bc99af-6b74-4789-8335-3cf546ab31c7" LastKnownName="User" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="08185052-be42-47ba-ae4d-ebcd12b7fb95" name="message" direction="In" isUnique="false">
+                  <elementDefinition Id="f738c947-a95e-48d0-b56c-8dfc4ad4af1c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b1279209-22f4-4215-9589-fc50b621d0aa" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -367,6 +395,11 @@
     <packageHasNamedElement>
       <referencedType Id="b1279209-22f4-4215-9589-fc50b621d0aa" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
         <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d6bc99af-6b74-4789-8335-3cf546ab31c7" name="User" isAbstract="false" isLeaf="false" cachedFullName="DesignPattern::Mediator::User">
+        <elementDefinition Id="58c3fb71-abed-45de-9157-5021c4ecf8bd" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

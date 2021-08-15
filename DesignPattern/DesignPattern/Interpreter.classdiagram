@@ -72,32 +72,6 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="a3d30dc8-858e-4a5c-80b5-0535d4e0317a">
-      <profileInstance Id="9d305b8e-5746-4af4-ba56-3b62840ebf81" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="febbb221-1ea4-48e2-b079-1880759ac701">
-      <profileInstance Id="e431e54c-fb2d-492f-9daa-3ae7a9d9d0a1" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="615e12a0-f756-4e43-968c-772417dd0292">
-      <profileInstance Id="09ce1900-23eb-4f12-8eb8-a2cd736a934b" name="CSharpProfile">
-        <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
-      </profileInstance>
-      <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="8bc0b806-bbc3-4917-a39d-805837295a76">
-      <profileInstance Id="89c325bc-be9e-41f2-b2fa-73d22bac3da3" name="TextTemplateBindings">
-        <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
-      </profileInstance>
-      <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="1d1bcd5d-1706-43cd-af8b-1670fddecd4f" name="InterpreterDemo" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -191,6 +165,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="d4b48135-0b9a-4e81-a7bc-26be174786e6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="378ff6ad-1a26-45e1-be0b-1fbe7faa4258" direction="Return">
+                  <elementDefinition Id="eff39cde-128a-4719-98ed-af4e430e6f2d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b30f1305-10ab-4749-958c-6ba06ce54e6f" LastKnownName="IExpression" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="df26bc79-e166-49ae-9cda-160726c686de" name="GetMarriedWomenExpression" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -237,6 +221,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="3d5981f1-97d4-4eef-94f2-85ae912de8e9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="547b6969-bf6e-45dc-9d36-97b5f32dd1b8" direction="Return">
+                  <elementDefinition Id="b1c4031b-55c7-4489-8da1-95ff30ecddfd" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="70ca2177-6527-4eac-b41f-a413fa0627ae" LastKnownName="IExpression" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -327,6 +321,14 @@
                   <elementDefinition Id="a2e46dd8-8664-4536-8bd5-e8f3a4beb631" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="e4e71c18-1e18-4d71-bc85-040e99b16cec" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3c09448b-4cd1-4ba7-bef3-d967778680fa" name="context" direction="In">
+                  <elementDefinition Id="f1e5a78f-d603-4150-a6d3-8a59752de4aa" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c7e58a9d-a130-423d-afd0-4fa0ec26b47f" LastKnownName="String" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -490,6 +492,14 @@
                   <elementDefinition Id="21374302-1696-43d0-9d0c-481f68eecd67" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="e4e71c18-1e18-4d71-bc85-040e99b16cec" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b825816a-f2a5-4169-a8ed-2096040ca22d" name="context" direction="In">
+                  <elementDefinition Id="a9b6ceb5-0f53-4528-84ea-fd82604c0cd0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c7e58a9d-a130-423d-afd0-4fa0ec26b47f" LastKnownName="String" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -711,6 +721,14 @@
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="98aba805-8bab-4dce-a99d-f752ed3d4078" name="context" direction="In">
+                  <elementDefinition Id="5bd0b304-2af6-47a5-80d7-dd2b3ea1ca41" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c7e58a9d-a130-423d-afd0-4fa0ec26b47f" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
         </ownedOperationsInternal>
@@ -929,6 +947,14 @@
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1e7f4512-092a-4e8d-9bfe-3f5d938154a6" name="context" direction="In">
+                  <elementDefinition Id="5dad5189-bef9-4062-89d5-b2e491bb5cfc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c7e58a9d-a130-423d-afd0-4fa0ec26b47f" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
         </ownedOperationsInternal>
@@ -964,8 +990,44 @@
         <elementDefinition Id="00540e83-87eb-4c33-9325-95a455691657" />
       </referencedType>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b30f1305-10ab-4749-958c-6ba06ce54e6f" name="IExpression" isAbstract="false" isLeaf="false" cachedFullName="DesignPattern::Interpreter::IExpression">
+        <elementDefinition Id="00540e83-87eb-4c33-9325-95a455691657" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="70ca2177-6527-4eac-b41f-a413fa0627ae" name="IExpression" isAbstract="false" isLeaf="false" cachedFullName="DesignPattern::Interpreter::IExpression">
+        <elementDefinition Id="00540e83-87eb-4c33-9325-95a455691657" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="f0e4761b-c80f-44bb-80f3-174e2733a881" name="DesignPattern">
     <elementDefinition Id="7db9f246-c4a2-4ff0-9953-817e64c534bc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a3d30dc8-858e-4a5c-80b5-0535d4e0317a">
+        <profileInstance Id="9d305b8e-5746-4af4-ba56-3b62840ebf81" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="febbb221-1ea4-48e2-b079-1880759ac701">
+        <profileInstance Id="e431e54c-fb2d-492f-9daa-3ae7a9d9d0a1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="615e12a0-f756-4e43-968c-772417dd0292">
+        <profileInstance Id="09ce1900-23eb-4f12-8eb8-a2cd736a934b" name="CSharpProfile">
+          <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
+        </profileInstance>
+        <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8bc0b806-bbc3-4917-a39d-805837295a76">
+        <profileInstance Id="89c325bc-be9e-41f2-b2fa-73d22bac3da3" name="TextTemplateBindings">
+          <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
+        </profileInstance>
+        <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

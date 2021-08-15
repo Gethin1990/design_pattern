@@ -153,6 +153,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="b90790bd-bfe2-4641-9e61-313303a8ac7f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1825d404-adc7-4dfc-820e-e8c106ef52fd" name="Radius" direction="In">
+                  <elementDefinition Id="df629150-30d5-4330-8d93-87dccfa657db" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b6b5a3ac-0486-4746-ab43-7b97403cd4ec" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperations>
       </Interface>
@@ -297,6 +307,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="2cb29a53-d9b7-42c9-be9f-69fb1e2c0d4e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b1fdabdb-ec05-4ee7-a7b8-8bf67f0ecb94" name="Radius" direction="In">
+                  <elementDefinition Id="36f4e5af-8f51-4ec1-9c10-cbb59659e440" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b6b5a3ac-0486-4746-ab43-7b97403cd4ec" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -393,6 +413,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="acee5447-69b5-4321-80d1-bdeb142bc0d8" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="68f0ca21-6986-422c-9642-5def90aa85af" name="Radius" direction="In">
+                  <elementDefinition Id="1433a985-116d-4bf8-ae43-0e21764f14ef" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b6b5a3ac-0486-4746-ab43-7b97403cd4ec" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -455,8 +485,65 @@
             <elementDefinition Id="046fecd0-a38f-43d1-8c7e-ba8425838ddb" />
           </association>
         </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="e44bf130-0f33-4083-9b32-f20459370ca0" name="Radius" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="8823307d-f54e-4331-8733-e697d4e4e388" name="property" profile="CSharpProfile">
+                <elementDefinition Id="e376c570-5a33-4285-b558-012e394bd3a9" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="949eeeea-0d94-47a6-a3d7-6daa8c8d7d9d">
+                    <propertyInstance Id="332754e3-3c1f-458c-8beb-5590946e4f48" name="ClrAttributes">
+                      <elementDefinition Id="c75ecb97-c80f-419b-b769-27dd19046f34" />
+                    </propertyInstance>
+                    <elementDefinition Id="990f43ae-27fe-4e7f-a656-42c56c0ea92d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7637c2b6-a70a-4113-a980-f38a12373ea9">
+                    <propertyInstance Id="9a246493-7b31-451b-9ec0-7f394895edc8" name="Get" value="none">
+                      <elementDefinition Id="3dd73130-ea6c-400e-a5ac-ede14293af6e" />
+                    </propertyInstance>
+                    <elementDefinition Id="8049aa02-8ba9-42b4-8d99-e1f64f120cff" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1abac2fb-1606-4033-96be-98b7f6af52da">
+                    <propertyInstance Id="198eef70-12d7-44d2-ad3b-1481b7f76384" name="HasBody" value="false">
+                      <elementDefinition Id="bf36856d-d4d8-412e-b0fb-b8dcdd484828" />
+                    </propertyInstance>
+                    <elementDefinition Id="62ab1245-ee91-404a-8d8b-359e585e08dc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c6e69d55-7378-4560-a590-79af996a50e4">
+                    <propertyInstance Id="6793b631-5492-4deb-b4fd-3c4efa9c279e" name="IsUnsafe" value="false">
+                      <elementDefinition Id="1b5053a6-ec40-4841-8cee-5c590789b52b" />
+                    </propertyInstance>
+                    <elementDefinition Id="ad19c039-e3ea-4879-ae7c-d8bbe8802db7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="37332003-71f0-4bf6-8cd8-342cc3397408">
+                    <propertyInstance Id="39356e14-9f88-4d87-ad20-3f4290701eb0" name="Inheritance" value="none">
+                      <elementDefinition Id="f511c9ce-9b4e-4318-b561-b35bd275d49c" />
+                    </propertyInstance>
+                    <elementDefinition Id="d60e64ea-aeb2-4f09-a434-916ab27ec022" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0cfd8535-0670-436b-a737-3e8072f5ca59">
+                    <propertyInstance Id="ebeb5612-f416-4e70-9b5d-8bc6d17b597d" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8a11bdb0-f1c2-4b02-b982-526d38757df8" />
+                    </propertyInstance>
+                    <elementDefinition Id="f162b6a5-426e-444b-8e3c-5f158e7a5034" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3b6c6ba3-4012-485e-8a08-8104b5055721">
+                    <propertyInstance Id="de27cbd4-c9df-4916-bc7c-16dc5ad013ef" name="Set" value="none">
+                      <elementDefinition Id="4ea74fa0-cdf3-4406-b702-bc7309a28059" />
+                    </propertyInstance>
+                    <elementDefinition Id="490d869f-2231-4a5c-9e90-966bc5333372" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="453d5311-1c8c-4e6c-aff4-60d312943ddb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b6b5a3ac-0486-4746-ab43-7b97403cd4ec" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
-          <operation Id="8c128f3f-6bb4-44a1-9d0d-21d74e70a295" name="draw" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+          <operation Id="8c128f3f-6bb4-44a1-9d0d-21d74e70a295" name="Draw" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="9c8a2cb2-9e5e-46ea-9d4f-e89816326609" name="method" profile="CSharpProfile">
                 <elementDefinition Id="1f2bd1e9-c10b-4b6b-8b50-1a68742f7218" />
@@ -552,7 +639,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="d744faca-1803-4ff6-a9a1-05f5fa316ae9" name="draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="d744faca-1803-4ff6-a9a1-05f5fa316ae9" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="173a780d-2b4b-47e1-a7f2-e6b92157e1f5" name="method" profile="CSharpProfile">
                 <elementDefinition Id="5114abc1-163f-4c88-afd9-c159ab08133a" />
@@ -601,6 +688,11 @@
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="b6b5a3ac-0486-4746-ab43-7b97403cd4ec" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="871b8427-53cf-48b9-96e1-ebce70361f13" name="DesignPattern">
     <elementDefinition Id="7db9f246-c4a2-4ff0-9953-817e64c534bc" />

@@ -72,32 +72,6 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="7dd73979-7666-4899-960c-0a6d23cb2ad7">
-      <profileInstance Id="455b14f4-3b9b-46d1-8d64-9e16a6a76764" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="d753d8ec-308e-43bd-9bca-8932517aa51c">
-      <profileInstance Id="76a6ece0-8722-41f9-a477-d529c748c258" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="ce31924c-4c2a-42b8-868b-cae1a781f8c7">
-      <profileInstance Id="746b8605-fae9-498d-bbe0-7b9abd775219" name="CSharpProfile">
-        <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
-      </profileInstance>
-      <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="244596a1-dbc4-496b-a465-04657f8095e8">
-      <profileInstance Id="4c2b0417-7fec-404b-acee-51da2d705f30" name="TextTemplateBindings">
-        <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
-      </profileInstance>
-      <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <Interface Id="ab8a11be-3dca-4c0a-8aee-418fa4c0829b" name="IShape" isAbstract="false" isLeaf="false">
@@ -134,7 +108,7 @@
         </appliedStereotypesInternal>
         <elementDefinition Id="9e306901-85ff-4e34-aea7-cebc194a9974" />
         <ownedOperations>
-          <operation Id="1263e98e-72dc-4f0a-b1e4-d71133e8169a" name="draw" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+          <operation Id="1263e98e-72dc-4f0a-b1e4-d71133e8169a" name="Draw" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="d6cf1780-f554-4ca8-a360-770b6830db1d" name="method" profile="CSharpProfile">
                 <elementDefinition Id="b0423283-cc58-4e5f-9159-7135de4de621" />
@@ -230,7 +204,7 @@
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
-          <operation Id="ef959c40-5127-4766-ba23-eba0f86e90a1" name="draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="ef959c40-5127-4766-ba23-eba0f86e90a1" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="5913d760-faeb-4dfa-a30d-cb17ea0ada28" name="method" profile="CSharpProfile">
                 <elementDefinition Id="931412b2-4ed4-41c1-96f5-ce84ae4fccef" />
@@ -326,7 +300,7 @@
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
-          <operation Id="e071e9cc-5c2a-4f94-a8f5-779fd807f049" name="draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="e071e9cc-5c2a-4f94-a8f5-779fd807f049" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="959ef8bd-c4b6-485f-956c-c40e03eafed7" name="method" profile="CSharpProfile">
                 <elementDefinition Id="9cd8b038-5c98-449d-a3e0-6f4ffe432bc8" />
@@ -545,8 +519,82 @@
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d18d9937-71fa-475c-a8c2-0f2a7ad4edee" name="FacadeDemo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="7eccc3b6-bbe0-4e47-8723-4f3cb00d70a5" name="class" profile="CSharpProfile">
+            <elementDefinition Id="11044532-1eed-4398-aa53-597e095fd250" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ef6772d2-8f83-4e3d-b282-8676053821e0">
+                <propertyInstance Id="b7123312-19b0-4535-b31f-a22201f8c43c" name="ClrAttributes">
+                  <elementDefinition Id="c45cfcec-f402-472b-838f-d70e807ab302" />
+                </propertyInstance>
+                <elementDefinition Id="d1d12b17-d8b1-4ebf-82f2-11c0bae6a353" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a3eaa05f-2e2c-4dc3-8724-2daf1e8dfeb6">
+                <propertyInstance Id="351c352e-9b74-44e4-936f-4ceb5712ea0b" name="IsPartial" value="false">
+                  <elementDefinition Id="d8e5f809-a843-4209-843b-4c5f2c049c31" />
+                </propertyInstance>
+                <elementDefinition Id="b7e2d9fa-9234-4736-830f-b831ed25e16d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bd772d26-6e83-4222-8446-f55c5ec9b367">
+                <propertyInstance Id="b0891bb6-84f9-4def-9138-10c885af1b1c" name="IsStatic" value="false">
+                  <elementDefinition Id="cce33038-55f6-4550-b6e2-6019dd0f6fad" />
+                </propertyInstance>
+                <elementDefinition Id="fa09c68a-3787-47b1-80cc-1cc8ed3891bb" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6e559769-0bdb-4df0-a821-57a2bf5792ba">
+                <propertyInstance Id="fd9a0c2b-1f83-4412-9243-85a78bb9b778" name="IsUnsafe" value="false">
+                  <elementDefinition Id="d5cc3c3d-ffc4-4459-8452-3cef36a5fcab" />
+                </propertyInstance>
+                <elementDefinition Id="cb80680a-cc8d-4ea0-8a40-3b7b9fff64dc" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c39fcb73-f6ae-4de7-8605-6768d10a1cfc">
+                <propertyInstance Id="f5787ae2-4718-4c30-9dae-2198391e7432" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="99eee645-4490-49fb-a2ef-ce099c2c0b52" />
+                </propertyInstance>
+                <elementDefinition Id="8a10fe5a-207e-4c03-a632-c0d955aacac6" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="43080b22-98dc-47ac-852f-19fc2549d549" />
+        <suppliersInternal>
+          <dependency Id="7d10d4d1-2ee0-4c87-a511-6b7929307dda">
+            <classMoniker Id="53f0733e-22d3-427b-8ea6-821abe9f25f8" LastKnownName="ShapeMaker" />
+            <elementDefinition Id="8a0afe43-ac05-4257-9bc4-8b9db3a53dd5" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="85374a11-e73f-4ad4-899a-cae7a853e06c" name="DesignPattern">
     <elementDefinition Id="7db9f246-c4a2-4ff0-9953-817e64c534bc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="7dd73979-7666-4899-960c-0a6d23cb2ad7">
+        <profileInstance Id="455b14f4-3b9b-46d1-8d64-9e16a6a76764" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d753d8ec-308e-43bd-9bca-8932517aa51c">
+        <profileInstance Id="76a6ece0-8722-41f9-a477-d529c748c258" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ce31924c-4c2a-42b8-868b-cae1a781f8c7">
+        <profileInstance Id="746b8605-fae9-498d-bbe0-7b9abd775219" name="CSharpProfile">
+          <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
+        </profileInstance>
+        <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="244596a1-dbc4-496b-a465-04657f8095e8">
+        <profileInstance Id="4c2b0417-7fec-404b-acee-51da2d705f30" name="TextTemplateBindings">
+          <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
+        </profileInstance>
+        <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

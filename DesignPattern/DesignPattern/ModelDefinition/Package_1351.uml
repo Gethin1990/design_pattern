@@ -66,7 +66,7 @@
         <ownedOperationsInternal>
           <operation
             Id="031ddb18-84b7-4cf7-97b7-2fef43635f9a"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -188,7 +188,7 @@
         <ownedOperationsInternal>
           <operation
             Id="f128f707-b0ed-42b0-9e9e-cf2e82632955"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -293,7 +293,7 @@
         <ownedOperations>
           <operation
             Id="19099bf2-334e-466a-bbac-442c04bb7e81"
-            name="draw"
+            name="Draw"
             isLeaf="false"
             isStatic="false"
             isAbstract="true"
@@ -603,6 +603,67 @@
             </appliedStereotypesInternal>
           </operation>
         </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="43080b22-98dc-47ac-852f-19fc2549d549"
+        name="FacadeDemo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="11044532-1eed-4398-aa53-597e095fd250"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1d12b17-d8b1-4ebf-82f2-11c0bae6a353">
+                <propertyInstance
+                  Id="c45cfcec-f402-472b-838f-d70e807ab302"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7e2d9fa-9234-4736-830f-b831ed25e16d">
+                <propertyInstance
+                  Id="d8e5f809-a843-4209-843b-4c5f2c049c31"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa09c68a-3787-47b1-80cc-1cc8ed3891bb">
+                <propertyInstance
+                  Id="cce33038-55f6-4550-b6e2-6019dd0f6fad"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb80680a-cc8d-4ea0-8a40-3b7b9fff64dc">
+                <propertyInstance
+                  Id="d5cc3c3d-ffc4-4459-8452-3cef36a5fcab"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a10fe5a-207e-4c03-a632-c0d955aacac6">
+                <propertyInstance
+                  Id="99eee645-4490-49fb-a2ef-ce099c2c0b52"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="8a0afe43-ac05-4257-9bc4-8b9db3a53dd5">
+            <classMoniker
+              Id="529728bf-21ba-43fd-9b80-2a623ec5df27"
+              LastKnownName="ShapeMaker"
+              LastKnownLocation="Package_1351.uml" />
+          </dependency>
+        </suppliersInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>

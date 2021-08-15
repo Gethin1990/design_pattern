@@ -381,6 +381,83 @@
               LastKnownLocation="Package_1453.uml" />
           </dependency>
         </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4614dcac-f11f-4a5a-b321-babfcc96bd4b"
+            name="NameList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a65a1d7d-0781-4b4e-9253-d0a3824756ff"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b042a3b0-b939-4afd-869f-4be5557fe029">
+                    <propertyInstance
+                      Id="39176858-6e15-497f-af3e-9b3319198e19"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2ded513-3f31-4dde-b4d3-fc10cd4c8724">
+                    <propertyInstance
+                      Id="6ed6df9d-faad-4f67-a9f3-67bf4735096f"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44187358-8c32-466a-ac18-eae30d85c1f4">
+                    <propertyInstance
+                      Id="65e5ec66-0eda-41e7-b2ff-74bd3a04464a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c03eef1-f236-4dae-a3ca-f9ba9c044435">
+                    <propertyInstance
+                      Id="8b9c614a-9aca-41fd-b12f-68d30b2165c9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65331719-45d0-4c88-b79f-d9856dd312b3">
+                    <propertyInstance
+                      Id="eef5b91c-47bc-49f9-ba69-9e4ba0208b08"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1f009fb-0648-4a02-a0ea-18900ccc8aae">
+                    <propertyInstance
+                      Id="2e7d15a4-9159-4717-93ba-32602ae05de1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0383024a-28b6-4374-a4b1-c140096674e3">
+                    <propertyInstance
+                      Id="d2203583-fd45-4fe7-9a08-36b16577c03c"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="e9dabae5-b03b-40d1-b986-dd6d02f8a4dc"
+                LastKnownName="List&lt;string&gt;"
+                LastKnownLocation="DesignPattern.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="de5b83f9-d605-45b6-84ef-09c21410051c"
@@ -517,6 +594,47 @@
               LastKnownLocation="Package_1453.uml" />
           </interfaceRealization>
         </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="d7a8262a-31fc-4b73-a1f1-5de3c4a98c11"
+            isDerived="false"
+            sourceEndRoleName="NameIterator"
+            targetEndRoleName="NameRepository"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d0fe665e-c599-4fcf-b3b9-e8bcf68f9cf2"
+              LastKnownName="NameRepository"
+              LastKnownLocation="Package_1453.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6736ee70-4fbb-48b2-83dd-73e4c3e7fdca"
+                  name="NameIterator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="34f8baf6-5fe8-48af-9625-104e74b0cc24"
+                  name="NameRepository"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation
             Id="a1f3acce-76a2-47d2-9dbf-c31d1b13b00c"
@@ -723,6 +841,13 @@
             <classMoniker
               Id="d0fe665e-c599-4fcf-b3b9-e8bcf68f9cf2"
               LastKnownName="NameRepository"
+              LastKnownLocation="Package_1453.uml" />
+          </dependency>
+          <dependency
+            Id="66a61827-667d-4816-b3db-a7d98f69ed4b">
+            <classMoniker
+              Id="001823e3-ade2-4b63-8796-68a19f22964b"
+              LastKnownName="NameIterator"
               LastKnownLocation="Package_1453.uml" />
           </dependency>
         </suppliersInternal>

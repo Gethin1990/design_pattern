@@ -72,32 +72,6 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="6c7a1f17-e592-473f-b0c1-7e13efe8edaa">
-      <profileInstance Id="92c1519f-051e-407a-b5f6-3d3aed973595" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="ce7bdaad-f11f-410c-806d-93c9318a08e1">
-      <profileInstance Id="22ab56c6-9fc8-4372-8522-80bd74b5fcec" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="3e0a4b56-a92d-4a4b-9ad6-d12ccfb06efe">
-      <profileInstance Id="38327ecc-24a1-40f1-bc4f-52cd330ee69e" name="CSharpProfile">
-        <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
-      </profileInstance>
-      <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="ad786b12-724c-42b3-a8c6-ef26e6889671">
-      <profileInstance Id="01780e07-9836-44a5-84b3-3be9763cd2c8" name="TextTemplateBindings">
-        <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
-      </profileInstance>
-      <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <Interface Id="d7fc1aa9-58fa-44e3-be9d-67b0e97701e7" name="IOrder" isAbstract="false" isLeaf="false">
@@ -229,6 +203,24 @@
             <elementDefinition Id="3d6b3ace-fb4b-44c1-aeb4-b857661ccabc" />
           </interfaceRealization>
         </suppliersInternal>
+        <targetEnds>
+          <association Id="684dbb63-1145-40e6-a6e3-f170e85c3218" isDerived="false" sourceEndRoleName="BuyStock" targetEndRoleName="Stock" isLeaf="false" isAbstract="false">
+            <classMoniker Id="78276b47-7966-492f-b2bc-eb11dca8e478" LastKnownName="Stock" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6acc1ddc-093e-4c7c-960e-186656aa853c" name="BuyStock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="23b07cbd-fc4c-4984-8212-75dfa5956400" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b163cc9-0ac0-47f4-8865-2d419cd3e1a3" name="Stock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c160dc73-8f85-4f33-93d2-0df3c55d7aec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="89a5fc0f-de2c-43e1-90e7-f0b29d26a5d2" />
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation Id="d20ebd83-dadc-45d0-903e-f24ad06199ab" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -325,6 +317,24 @@
             <elementDefinition Id="b7c76927-1817-4f32-ab68-54c78714deab" />
           </interfaceRealization>
         </suppliersInternal>
+        <targetEnds>
+          <association Id="1fddddba-95c6-4cb1-b570-5dff65bae6d4" isDerived="false" sourceEndRoleName="SellStock" targetEndRoleName="Stock" isLeaf="false" isAbstract="false">
+            <classMoniker Id="78276b47-7966-492f-b2bc-eb11dca8e478" LastKnownName="Stock" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b87eda5-0d04-463e-bccb-bf77cc69a942" name="SellStock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cc1fc617-af70-4e9b-a9d2-6d6aa67adc53" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a6b1dcb4-b788-4eb4-a8d3-71280dc80489" name="Stock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="001ae775-ed41-45fe-96ad-335d55a39fad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b2c0d1c0-41a2-4448-91c9-05b34f4d2084" />
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation Id="6f30573b-5358-4f83-9b9e-34e55114326a" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -376,7 +386,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="09f87716-f446-4e59-823d-b60e5589b1b2" name="Broket" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="09f87716-f446-4e59-823d-b60e5589b1b2" name="Broker " isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="9027a233-b4ba-4493-bdbc-77750ed6ebbe" name="class" profile="CSharpProfile">
             <elementDefinition Id="c709dfc4-d5bc-4aa5-bc2e-d28e0219ef3e" />
@@ -415,14 +425,36 @@
           </stereotypeInstance>
         </appliedStereotypesInternal>
         <elementDefinition Id="40affc67-fc69-4314-ac6a-f1e65dee3f26" />
-        <suppliersInternal>
-          <dependency Id="d481195b-5fb3-4c00-a684-567706a4989e">
+        <targetEnds>
+          <association Id="53d6852c-543f-4faf-964e-2d18143b8876" isDerived="false" sourceEndRoleName="Broket" targetEndRoleName="OrderList" isLeaf="false" isAbstract="false">
             <interfaceMoniker Id="d7fc1aa9-58fa-44e3-be9d-67b0e97701e7" LastKnownName="IOrder" />
-            <elementDefinition Id="fd4ee240-336d-490e-ae01-5c15bbb9724f" />
-          </dependency>
-        </suppliersInternal>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acad721a-151e-4404-a792-4a111975cd61" name="Broket" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="42292e36-ae50-459d-8b7f-4ee5d52f2f57" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ec7bf511-b05e-43e3-9aaa-f6c3187da26b" name="OrderList" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="54640b76-d3aa-4c2e-8b72-b80f4feaa584" name="Lower" value="*">
+                      <elementDefinition Id="f5a6ee7f-d946-43a1-89ee-9abc1a8f90bb" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="044f7c36-e78b-4328-84b2-375d3e10c186" name="Upper" value="*">
+                      <elementDefinition Id="b00790fb-7f40-4157-b658-d378283493da" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="6c89b0e8-fb0e-4e9f-8967-7aee007b5ff6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2af895af-bac2-4fb9-8a52-39cabec756ad" />
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
-          <operation Id="7cc88890-7c35-4b6d-9a8a-e602b242278f" name="TakeOrders" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="7cc88890-7c35-4b6d-9a8a-e602b242278f" name="PlaceOrders" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="541652c3-2806-4ae9-95b3-89a148313572" name="method" profile="CSharpProfile">
                 <elementDefinition Id="332be92a-361d-4665-8e0c-f6d04ba6e82c" />
@@ -468,7 +500,7 @@
             </appliedStereotypesInternal>
             <elementDefinition Id="3431acae-ce29-43ba-a992-2d83ff87defb" />
           </operation>
-          <operation Id="80ef1599-257e-4962-b87a-42295b8fa801" name="BuyOrders" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="80ef1599-257e-4962-b87a-42295b8fa801" name="TakeOrder" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
               <stereotypeInstance Id="dcd4c755-5a41-4221-9e9f-1e408a3bc012" name="method" profile="CSharpProfile">
                 <elementDefinition Id="5df094ee-9d93-4ff0-878d-a1aaaaf39247" />
@@ -513,6 +545,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="d5b6f3d2-7fe1-4123-834a-3e3937c2abb4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="257660c2-d478-4a63-b8cf-8ee694711098" name="order" direction="In" isUnique="false">
+                  <elementDefinition Id="6aefdde8-1b59-4143-a119-c17178db87fd" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7e8d3262-fa7b-4858-95e4-50992f62df6b" LastKnownName="IOrder" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -563,7 +605,7 @@
             <elementDefinition Id="e71e90ea-469d-4b64-8e14-9a713cb4764e" />
           </dependency>
           <dependency Id="c869e859-aeab-4402-ae61-e2a98f7cdcc3">
-            <classMoniker Id="09f87716-f446-4e59-823d-b60e5589b1b2" LastKnownName="Broket" />
+            <classMoniker Id="09f87716-f446-4e59-823d-b60e5589b1b2" LastKnownName="Broker " />
             <elementDefinition Id="13cceebd-cd89-4c27-936c-80518280bec5" />
           </dependency>
         </suppliersInternal>
@@ -609,40 +651,6 @@
           </stereotypeInstance>
         </appliedStereotypesInternal>
         <elementDefinition Id="266f5387-4e23-44a5-a678-b76a6fedc3a7" />
-        <targetEnds>
-          <association Id="efe68bd6-fd69-453d-b71e-01209cb4a5aa" isDerived="false" sourceEndRoleName="Stock" targetEndRoleName="BuyStock" isLeaf="false" isAbstract="false">
-            <classMoniker Id="713298ca-9db8-41dc-8fe2-b193406e9b6e" LastKnownName="BuyStock" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="fc8a6f71-ff99-468d-a526-049ce07e6299" name="Stock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="b08b4c06-9cc9-45e4-b5f4-cdb6f247cf7c" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="4fa41a02-05af-4334-8722-e6352e19e963" name="BuyStock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="e609a477-8d35-4dac-a96b-dd42b9795b59" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="db4d6036-ee55-41df-ae27-c71934caa4c7" />
-          </association>
-          <association Id="a442bf47-3754-414f-92b1-a8a512b74c05" isDerived="false" sourceEndRoleName="Stock" targetEndRoleName="SellStock" isLeaf="false" isAbstract="false">
-            <classMoniker Id="997aff8a-25e4-4408-b509-960d16b01793" LastKnownName="SellStock" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="8a2b95e2-9475-4ada-8293-c11feefd49d5" name="Stock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="9505a4eb-0409-4670-9f47-a0f5c1a04882" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="7242a0c5-db80-4b05-9d8b-544e322600f1" name="SellStock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="cb54d5cf-7b71-45dd-9ebe-795a30a30237" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="69963f9d-ce83-4cea-8409-9917f35a2c8b" />
-          </association>
-        </targetEnds>
         <ownedOperationsInternal>
           <operation Id="3259c548-cc61-4fad-ad3d-e5616720f8ba" name="Buy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -739,8 +747,39 @@
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="7e8d3262-fa7b-4858-95e4-50992f62df6b" name="IOrder" isAbstract="false" isLeaf="false" cachedFullName="DesignPattern::Command::IOrder">
+        <elementDefinition Id="63841f4c-0e92-4f6a-a564-0f856954e489" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="23ba4aaf-1d04-4116-add0-1f3779df6314" name="DesignPattern">
     <elementDefinition Id="7db9f246-c4a2-4ff0-9953-817e64c534bc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="6c7a1f17-e592-473f-b0c1-7e13efe8edaa">
+        <profileInstance Id="92c1519f-051e-407a-b5f6-3d3aed973595" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ce7bdaad-f11f-410c-806d-93c9318a08e1">
+        <profileInstance Id="22ab56c6-9fc8-4372-8522-80bd74b5fcec" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3e0a4b56-a92d-4a4b-9ad6-d12ccfb06efe">
+        <profileInstance Id="38327ecc-24a1-40f1-bc4f-52cd330ee69e" name="CSharpProfile">
+          <elementDefinition Id="2f8eceb9-06d6-4c2b-a13f-1b9c4a61935b" />
+        </profileInstance>
+        <elementDefinition Id="0b1626da-53c1-4499-b8f1-b2f118b17802" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ad786b12-724c-42b3-a8c6-ef26e6889671">
+        <profileInstance Id="01780e07-9836-44a5-84b3-3be9763cd2c8" name="TextTemplateBindings">
+          <elementDefinition Id="9180a4eb-9da8-44e5-ab6a-f6e4ec7f4272" />
+        </profileInstance>
+        <elementDefinition Id="ca61f93c-9cff-4b55-a5dd-982b81d1e4f5" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
